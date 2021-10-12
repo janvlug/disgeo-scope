@@ -145,6 +145,8 @@ Landelijke Voorziening
 
 Kadastrale Kaart
 
+Waterschappen Administratieve eenheden INSPIRE WMS
+
 Bestaande registraties
 ======================
 
@@ -174,8 +176,6 @@ Bestaande registraties
 -   Centrale OIN raadpleegvoorziening Logius
 
 -   CBS nummers gebieden
-
--   Waterschappen Administratieve eenheden INSPIRE WMS
 
 Wettelijk kader
 ===============
@@ -319,9 +319,6 @@ Waterschapsgrenzen INSPIRE
 De dataset geeft informatie over de waterschapsgrenzen.  
 Waterschapsgrens: Grens van het grondgebied onder het bestuur van een
 waterschap. Bron: AquoLex v11 (afgeleid) [www.aquo.nl](http://www.aquo.nl/)
-
-Waterschappen Administratieve eenheden INSPIRE WMS
-==================================================
 
 Bestuurlijke grenzen
 
