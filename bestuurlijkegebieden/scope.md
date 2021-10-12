@@ -10,6 +10,9 @@ Daarnaast beschouwen we ook de grenzen op zee die de maritieme zones ruimtelijk
 afbakenen ook als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
 territoriale zee, aansluitende en economische zone en het continentaal plat.
 
+*Eigenlijk grenzen van openbare lichamen (zoals bedoeld in de Grondwet Hoofdstuk
+7) en maritieme zones*
+
 We kunnen dus bestuurlijke gebieden ‘op land’ en bestuurlijke gebieden ‘op zee’
 onderscheiden. In het document ‘eisen aan inhoud’ voor een samenhangend stelsel
 van geobasisgegevens (werktitel: sor) worden bestuurlijke gebieden als volgt
@@ -23,60 +26,206 @@ van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke
 verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de
 veiligheidsregio’s*.
 
+In het document ‘[eisen aan
+inhoud](https://docs.geostandaarden.nl/disgeo/emso/)’ voor een samenhangend
+stelsel van geobasisgegevens worden de volgende bestuurlijke onderkend:
+
+-   [Bestuurlijk
+    gebied](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied)
+
+    -   [7.1.1Rijk](https://docs.geostandaarden.nl/disgeo/emso/#rijk)
+
+    -   [7.1.2Provincie](https://docs.geostandaarden.nl/disgeo/emso/#provincie)
+
+    -   [7.1.3Waterschap](https://docs.geostandaarden.nl/disgeo/emso/#waterschap)
+
+    -   [7.1.4Gemeente](https://docs.geostandaarden.nl/disgeo/emso/#gemeente)
+
+    -   [7.1.5Veiligheidsregio](https://docs.geostandaarden.nl/disgeo/emso/#veiligheidsregio)
+
+-   [7.2Bestuurlijk gebied op
+    zee](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee)
+
+    -   [7.2.1Nederlandse territoriale
+        zee](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-territoriale-zee)
+
+    -   [7.2.2Nederlandse aansluitende
+        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-aansluitende-zone)
+
+    -   [7.2.3Nederlandse exclusieve economische
+        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-exclusieve-economische-zone)
+
+    -   [7.2.4Nederlandse continentaal
+        plat](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-continentaal-plat)
+
+We hanteren deze indeling om per bestuurlijk gebied aan te geven, wie de
+stakeholders zijn, hoe het ketenwerkproces verloopt, wat het wettelijk kader is,
+en welke bestaande registraties en standaarden er zijn.
+
 Het (keten)werkproces waarin bestuurlijke gebieden worden geproduceerd
 ======================================================================
 
-Bestuurlijke gebieden ‘op land’
+Bestuurlijke gebieden op land:
+------------------------------
 
-De grenzen van gemeenten worden
+### Rijk 
 
-Provincies
+-   De grenzen worden in (internationale) verdragen formeel vastgesteld door het
+    Rijk.
+
+-   De grenzen *op land* worden (authentiek) vastgelegd in de BRK. Het Kadaster
+    is bronhouder.
+
+### Provincie
+
+-   De grenzen worden vastgesteld door het Rijk. Ze worden (authentiek)
+    vastgelegd in de BRK. Het Kadaster is bronhouder.
+
+### Gemeente:
+
+-   De grenzen worden vastgesteld door het Rijk. Ze worden (authentiek)
+    vastgelegd in de BRK. Het Kadaster is bronhouder.
+
+### Waterschap
+
+-   De grenzen worden vastgesteld in provinciale verordeningen. Deze zijn echter
+    nog niet eenduidig en volledig in beeld. De verkiezingsgrenzen (van de
+    waterschappen als verkiezingsgebieden voor de waterschapsverkiezingen) zijn
+    wel (niet-authentiek) vlakdekkend vastgelegd door de afzonderlijke
+    waterschappen en eenmalige verzameld, samengevoegd en als losse dataset
+    “Waterschapsgrenzen” ontsloten (o.a. via PDOK) door het waterschapshuis/unie
+    van waterschappen. Tevens ontsluiten enkele provincies losse datasets met
+    daarin de grenzen van de binnen hun provincie gelegen waterschappen.
+
+-   BGT IMGeo biedt ook een vrijwillige mogelijkheid om waterschapsgrenzen vast
+    te leggen.
+
+Bestuurlijke gebieden op zee:
+-----------------------------
 
 Rijk
+----
+
+-   De grenzen worden in (internationale) verdragen formeel vastgesteld door het
+    Rijk.
+
+-   De grenzen *op zee* worden (authentiek) vastgelegd door de Dienst der
+    Hydrografie (volgens IHO S-44 en S-57), en ontsloten middels losse datasets
+    (grenzen aansluitende zone, grenzen exclusieve economische zone, grenzen
+    territoriale zee, zones volgens het gemeenschappelijke visserijbeleid,
+    grenzen volgens kaderrichtlijn water, Eems-Dollardverdrag en aanvullende
+    overeenkomst, grenzen particularly sensitive Sea Area (PSSA) Waddenzee,
+    Blokindeling Nederlands continentaal plat).
+
+De [maritieme zones(verwijst naar een andere
+website)](https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen) worden
+gepubliceerd door de Dienst der Hydrografie van Defensie.
 
 Stakeholders
 ============
+
+-   Alle partijen die behoefte hebben aan relatering aan locatie en gebied van
+    bevoegd gezagen, werkingsgebieden en beheergebieden, onder meer
+    veiligheidsdiensten, Digitaal Stelsel Omgevingswet (DSO), provincies,
+    waterschappen, gemeenten.
+
+-   Centraal Bureau Statistiek (CBS)
+
+Partijen die grenzen van bestuurlijke gebieden inwinnen en/of bijhouden onder
+meer:
+
+-   Kadaster
+
+-   Ministerie Defensie
 
 Bestaande softwaresystemen
 ==========================
 
 Landelijke Voorziening
 
-Kadastrale KAart
+Kadastrale Kaart
 
 Bestaande registraties
 ======================
 
+-   **BRK:** de jaarlijkse dataset “Bestuurlijke Grenzen” bevat de landsgrens
+    (behalve de zeegrenzen), provinciegrenzen, gemeentegrenzen.
+
+-   **BRK:** de dataset Administratieve eenheden (INSPIRE geharmoniseerd) bevat
+    ook de gemeente- en provinciegrenzen (evenals de dataset “Bestuurlijke
+    Grenzen”) maar dan INSPIRE geharmoniseerd.
+
+-   **BRT:** de dataset “TopGrenzen” bevat de gegeneraliseerde gemeentegrenzen,
+    provinciegrenzen en de landsgrens (behalve die op zee). De grenzen worden
+    overgenomen uit de BRK en voor de toepasselijke kaartschaal gegeneraliseerd.
+
+-   De **Bestuurlijke Grenzen API** van het Kadaster combineert de Rijksgrenzen
+    (op land), provinciegrenzen en gemeentegrenzen uit de BRK met de grenzen op
+    zee van de Dienst der Hydrografie en de waterschapsgrenzen van het
+    waterschapshuis/unie van waterschappen.
+
+-   **BGT/IMGeo**: IMGeo biedt ruimte voor de vrijwillige vastlegging van
+    waterschapsgrenzen. Van die mogelijkheid wordt echter vrijwel geen gebruik
+    gemaakt (0 in november 2019).
+
+-   Andere relevante registraties (voor Bestuurlijke Grenzen API nodig voor
+    koppeling met bevoegd gezag):
+
+-   Centrale OIN raadpleegvoorziening Logius
+
+-   CBS nummers gebieden
+
+-   Waterschappen Administratieve eenheden INSPIRE WMS
+
 Wettelijk kader
 ===============
 
-[Artikel 123 van de
-Grondwet](https://wetten.overheid.nl/BWBR0001840/2018-12-21#Hoofdstuk7)
-regelt dat provincies en gemeenten bij wet kunnen worden opgeheven of ingesteld.
-In de [wet ARHI](https://wetten.overheid.nl/BWBR0003718) worden de algemene
-regels voor herindeling vastgelegd. Voor elke splitsing, samenvoeging, en
-grotere grenswijziging is in principe een aparte wet of rijksbesluit nodig.
-Kleinere grenswijzigingen kunnen met een provinciaal besluit worden ingesteld.
+-   Kadasterwet (rijk, provincie en gemeente-grenzen)
 
-In de [Kadasterwet](https://wetten.overheid.nl/BWBR0004541/2021-07-01) wordt de
-inhoud van de basisregistraties Kadaster (BRK) en Topografie (BRT) geregeld door
-verwijzing in artikel 48 (BRK) en artikel 98a derde lid (BRT) naar een
-vast-te-stellen gegevenscatalogus.
+-   Internationale verdragen (rijksgrenzen)
 
-De wet op de veiligheidsregio’s regelt in bijlage 1 de toewijzing van gemeenten
-aan een Veiligheidsregio.
+    -   Zee:
+        <https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen/nederlandse-grenzen-op-de-noordzee>
 
-Het Zeeverdrag van de Verenigde Naties regelt de algemene indeling van maritieme
-zones. Waar maritieme zones van verschillende landen elkaar overlappen zijn er
-verdragen tussen deze landen, bijvoorbeeld Belgïe-Nederland en
-Duitsland-Nederland.
+    -   Provinciale verordeningen (waterschapsgrenzen)
 
-Landsgrenzen zijn vastgelegd in internationale verdragen:
+-   [Artikel 123 van de
+    Grondwet](https://wetten.overheid.nl/BWBR0001840/2018-12-21#Hoofdstuk7)
+    regelt dat provincies en gemeenten bij wet kunnen worden
+    opgeheven of ingesteld. In de [wet
+    ARHI](https://wetten.overheid.nl/BWBR0003718) worden de algemene regels voor
+    herindeling vastgelegd. Voor elke splitsing, samenvoeging, en grotere
+    grenswijziging is in principe een aparte wet of rijksbesluit nodig. Kleinere
+    grenswijzigingen kunnen met een provinciaal besluit worden ingesteld.
 
-<https://www.centruminternationaalrecht.nl/landsgrenzen>
+-   In de [Kadasterwet](https://wetten.overheid.nl/BWBR0004541/2021-07-01) wordt
+    de inhoud van de basisregistraties Kadaster (BRK) en Topografie (BRT)
+    geregeld door verwijzing in artikel 48 (BRK) en artikel 98a derde lid (BRT)
+    naar een vast-te-stellen gegevenscatalogus.
+
+-   De wet op de veiligheidsregio’s regelt in bijlage 1 de toewijzing van
+    gemeenten aan een Veiligheidsregio. Bijlage bij artikel 8 Wet op de
+    Veiligheidsregio’s:
+    <https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage>
+
+-   [Wet algemene regels
+    herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nmdf8gfh)
+
+-   Het Zeeverdrag van de Verenigde Naties regelt de algemene indeling van
+    maritieme zones. Waar maritieme zones van verschillende landen elkaar
+    overlappen zijn er verdragen tussen deze landen, bijvoorbeeld
+    Belgïe-Nederland en Duitsland-Nederland.
+
+-   Landsgrenzen zijn vastgelegd in internationale verdragen:
+    <https://www.centruminternationaalrecht.nl/landsgrenzen>
+
+-   [Wet grenzen Nederlandse territoriale
+    zee](https://wetten.overheid.nl/BWBR0003748/)
 
 Relevante standaarden
 =====================
+
+<https://www.kadaster.nl/documents/1953498/2770003/BRK+Catalogus.pdf/ede17779-9298-c280-9997-788dd365a132?t=1632486527536>
 
 Relevante documentatie
 ======================
@@ -84,13 +233,8 @@ Relevante documentatie
 Inhoudelijke keuzes op hoofdlijnen
 ==================================
 
-Eigenlijk grenzen van openbare lichamen (zoals bedoeld in de Grondwet Hoofdstuk
-7) en maritieme zones
-
-Wet grenzen Nederlandse territoriale zee
-========================================
-
-<https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied>
+Bijlagen / overig te verwerken
+==============================
 
 In het document ‘[eisen aan
 inhoud](https://docs.geostandaarden.nl/disgeo/emso/)’ voor een samenhangend
@@ -128,8 +272,7 @@ Daarnaast worden andere registratieve gebieden/objecten onderkend, zijnde
 Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats.
 Deze registratieve gebieden vallen buiten de scope van bestuurlijke gebieden.
 
-Normale basislijnen en rechte basislijnen
------------------------------------------
+**Normale basislijnen en rechte basislijnen**
 
 Een basislijn is de lijn die de territoriale zee scheidt van het land en de
 binnenwateren. Basislijnen staan centraal in het Zeerechtverdrag, omdat ze de
@@ -151,34 +294,13 @@ Dienst der Hydrografie. De meest recente kaarten met een schaal van uiterlijk
 
 Grenscorrecties van gemeenten
 
-**Artikel 123: Grondgebied provincies en gemeenten**
-
-https://www.denederlandsegrondwet.nl/id/vkjaj9cww2yr/artikel_123_grondgebied_provincies_en
-
-De [maritieme zones(verwijst naar een andere
-website)](https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen) worden
-gepubliceerd door de Dienst der Hydrografie van Defensie.
-
-Bijlage bij artikel 8 Wet op de Veiligheidsregio’s:
-<https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage>
-
 Stakeholders
 
 Bestaande softwaresystemen
 
-Bestaande registraties
-======================
-
-Bestuurlijke gebieden ‘op land’
-===============================
-
-Bestuurlijke gebieden ‘op zee’
-==============================
-
-BRT:
-----
-
 ![Afbeelding met tafel Automatisch gegenereerde beschrijving](media/a50d3839288b07fbe3d16e799db0f880.png)
+
+Afbeelding met tafel Automatisch gegenereerde beschrijving
 
 Afbeelding met tafel Automatisch gegenereerde beschrijving
 
