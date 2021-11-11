@@ -1,10 +1,8 @@
 Beschrijving van bestuurlijke gebieden
 ======================================
 
-We hanteren de term *bestuurlijke gebieden* voor de bestuurlijke indeling van
-Nederland in ruimtelijke gebieden waar een openbaar lichaam (overheid) een
-bepaalde taak uitvoert. Voorbeelden van openbare lichaam zijn Rijk, gemeenten,
-provincies, waterschappen en samenwerkingsverbanden zoals veiligheidsregio’s.
+Voorbeelden van openbare lichaam zijn Rijk, gemeenten, provincies, waterschappen
+en samenwerkingsverbanden zoals veiligheidsregio’s.
 
 Daarnaast beschouwen we ook de grenzen op zee die de maritieme zones ruimtelijk
 afbakenen ook als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
@@ -58,6 +56,10 @@ stelsel van geobasisgegevens worden de volgende bestuurlijke onderkend:
     -   [7.2.4Nederlandse continentaal
         plat](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-continentaal-plat)
 
+Daarnaast worden andere registratieve gebieden/objecten onderkend, zijnde
+Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats.
+Deze registratieve gebieden vallen buiten de scope van bestuurlijke gebieden.
+
 We hanteren deze indeling om per bestuurlijk gebied aan te geven, wie de
 stakeholders zijn, hoe het ketenwerkproces verloopt, wat het wettelijk kader is,
 en welke bestaande registraties en standaarden er zijn.
@@ -68,7 +70,7 @@ Het (keten)werkproces waarin bestuurlijke gebieden worden geproduceerd
 Bestuurlijke gebieden op land:
 ------------------------------
 
-### Rijk 
+### Rijk (land)
 
 -   De grenzen worden in (internationale) verdragen formeel vastgesteld door het
     Rijk.
@@ -100,11 +102,21 @@ Bestuurlijke gebieden op land:
 -   BGT IMGeo biedt ook een vrijwillige mogelijkheid om waterschapsgrenzen vast
     te leggen.
 
+### Veiligheidsregio
+
 Bestuurlijke gebieden op zee:
 -----------------------------
 
-Rijk
-----
+Nederlandse territoriale zee
+
+Nederlandse aansluitende zone
+
+Nederlandse exclusieve economische zone
+
+Nederlandse continentaal plat
+
+Rijk (zee)
+----------
 
 -   De grenzen worden in (internationale) verdragen formeel vastgesteld door het
     Rijk.
@@ -208,8 +220,8 @@ Wettelijk kader
     Veiligheidsregio’s:
     <https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage>
 
--   [Wet algemene regels
-    herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nmdf8gfh)
+[Wet algemene regels
+herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nmdf8gfh)
 
 -   Het Zeeverdrag van de Verenigde Naties regelt de algemene indeling van
     maritieme zones. Waar maritieme zones van verschillende landen elkaar
@@ -233,44 +245,124 @@ Relevante documentatie
 Inhoudelijke keuzes op hoofdlijnen
 ==================================
 
+Inhoud (Model)
+--------------
+
+De volgende gegevens voor de modellering worden gemaakt:
+
+-   Voor bestuurlijke gebieden op land worden de gegevens conform
+    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied> opgenomen.
+
+-   Voor bestuurlijke gebieden op zee worden de gegevens conform
+    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee>.
+
+-   De topologische en adminstratieve relaties worden eveneens overgenomen uit
+    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied> en
+    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee>
+
+Status (Model)
+--------------
+
+-   Elke bestuurlijk gebied krijgt een status, zijnde de fase van de
+    levenscyclus. Voor levensfasen wordt de eisen uit
+    <https://docs.geostandaarden.nl/disgeo/emso/#levensfasen> gehanteerd. In
+    afwijking van dit document worden de volgende statussen gehanteerd voor een
+    bestuurlijk gebied: ontwerp, **vastgesteld/aangewezen (vastgesteld),
+    ingetrokken, ten onrechte opgevoerd (afgevoerd**).
+
+Voorbeeld:
+
+#### Purmerend
+
+De gemeente Beemster wordt op 01-01-2022 middels een lichte samenvoeging
+toegevoegd aan de gemeente Purmerend waarbij de gemeentecode van Purmerend
+gehandhaafd blijft. De gemeentecode van de gemeente Beemster wordt met ingang
+van 01 januari 2022 beëindigd.
+
+Registratie
+
+-   Een object Gemeente met naam ‘Purmerend’ en status ‘Aangewezen’ is
+    geregistreerd met eindGeldigheid leeg; een object Gemeente met naam
+    ‘Beemster’ en status ‘Aangewezen’ is geregistreerd met eindGeldigheid leeg.
+
+-   Een object Gemeente met naam ‘Purmerend’ en status ‘Ontwerp’ wordt
+    geregistreerd op 30-01-2018 met beginGeldigheid 29 januari 2018. De
+    geometrie bestaat uit de samengestelde contour van Gemeente ‘Purmerend’
+    ‘Aangewezen’ en Gemeente ‘Beemster’ ‘Aangewezen’.
+
+-   Op 31-12-2021 wordt
+
+-   Op 01-01-2022
+
+Actualiteit (Model)
+-------------------
+
+Een bestuurlijk gebied dient voor de inwerkingtreding beschikbaar zijn. Een
+voorlopige grens van een bestuurlijk gebied kan voor de inwerkingtreding worden
+aangeleverd.
+
+Bronhouders (juridisch)
+-----------------------
+
+| Rijk (grenzen op land) | Kadaster?                                                            |
+|------------------------|----------------------------------------------------------------------|
+| Provincie              | Kadaster?                                                            |
+| Gemeente               | Kadaster?                                                            |
+| Waterschap             | Unie van Waterschappen (Informatiehuis Water)                        |
+| Veiligheidsregio       | Ministerie van Justitie en Veiligheid (Instituut Fysieke Veiligheid) |
+| Rijk op zee            | Ministerie van Defensie (Dienst der Hydrografie)                     |
+| Waterschap             | Unie van Waterschappen / Informatiehuis Water                        |
+
+Inwinning
+---------
+
+-   Gegevens van Rijk, provincies en gemeenten worden afgeleid uit kadastrale
+    percelen.
+
+-   Gegevens over Maritieme zones op zee worden ingewonnen uit international
+    verdragen.
+
+-   Gegevens over Waterschappen worden ingewonnen via wet- en regelgeving /
+    besluiten.
+
+-   Gegevens over Veiligheidsregio worden ingewonnen via wet- en regelgeving.
+
+Wijzigen en corrigeren van gegevens (Model + Voorzieningen)
+-----------------------------------------------------------
+
+Bestuurlijke gebieden met status ‘Ontwerp’ mogen worden gewijzigd. Er ontstaat
+een nieuw voorkomen van dit object.
+
+Gegevens van bestuurlijke gebieden met status ‘Aanwezen’ of ‘Ingetrokken’ mogen
+niet worden gewijzigd (met uitzondering van de status). Deze objecten mogen wel
+worden gecorrigeerd. Voor correctie wordt het oude object gewijzigd naar status
+‘Ten onrechte opgevoerd’ met beginGeldigheid gelijk en nieuwe
+tijdstipregsitratie. Er ontstaat een nieuwe versie in de registratie. Een nieuw
+object met status ‘Aangewezen’ wordt opgevoerd met zelfde tijdstipregistratie
+
+Correcties op gegevens zijn wel mogelijk.
+
+Aanlevering en verstrekking (voorzieningen)
+-------------------------------------------
+
+**Optie 1:**
+
+Elke bronhouder stelt zijn gegevens beschikbaar op de eigen server middels een
+API.
+
+Een API op de API’s levert de gegevens door afnemers.
+
+![](media/4cc49fac198cc25014dd71bd62085ae3.png)
+
+**Optie 2:**
+
+Elke bronhouder levert de gegevens aan een centrale registratie. Een API op de
+centrale registratie levert de gegevens richting afnemers.
+
+![](media/67156e86cb28ec83bb940238c40b20ea.png)
+
 Bijlagen / overig te verwerken
 ==============================
-
-In het document ‘[eisen aan
-inhoud](https://docs.geostandaarden.nl/disgeo/emso/)’ voor een samenhangend
-stelsel van geobasisgegevens worden de volgende bestuurlijke onderkend:
-
-1.  [Bestuurlijk
-    gebied](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied)
-
-    1.  [7.1.1Rijk](https://docs.geostandaarden.nl/disgeo/emso/#rijk)
-
-    2.  [7.1.2Provincie](https://docs.geostandaarden.nl/disgeo/emso/#provincie)
-
-    3.  [7.1.3Waterschap](https://docs.geostandaarden.nl/disgeo/emso/#waterschap)
-
-    4.  [7.1.4Gemeente](https://docs.geostandaarden.nl/disgeo/emso/#gemeente)
-
-    5.  [7.1.5Veiligheidsregio](https://docs.geostandaarden.nl/disgeo/emso/#veiligheidsregio)
-
-2.  [7.2Bestuurlijk gebied op
-    zee](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee)
-
-    1.  [7.2.1Nederlandse territoriale
-        zee](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-territoriale-zee)
-
-    2.  [7.2.2Nederlandse aansluitende
-        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-aansluitende-zone)
-
-    3.  [7.2.3Nederlandse exclusieve economische
-        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-exclusieve-economische-zone)
-
-    4.  [7.2.4Nederlandse continentaal
-        plat](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-continentaal-plat)
-
-Daarnaast worden andere registratieve gebieden/objecten onderkend, zijnde
-Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats.
-Deze registratieve gebieden vallen buiten de scope van bestuurlijke gebieden.
 
 **Normale basislijnen en rechte basislijnen**
 
@@ -299,6 +391,8 @@ Stakeholders
 Bestaande softwaresystemen
 
 ![Afbeelding met tafel Automatisch gegenereerde beschrijving](media/a50d3839288b07fbe3d16e799db0f880.png)
+
+Afbeelding met tafel Automatisch gegenereerde beschrijving
 
 Afbeelding met tafel Automatisch gegenereerde beschrijving
 
