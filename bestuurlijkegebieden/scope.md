@@ -117,12 +117,15 @@ Partijen die gegevens van bestuurlijke gebieden **gebruiken** onder meer:
     veiligheidsdiensten, Digitaal Stelsel Omgevingswet (DSO), provincies,
     waterschappen, gemeenten.
 
+-   Bronhouder BAG voor het voldoen aan de eis dat het grondgebied van de
+    gemeente volledig bedekt is met woonplaatsen.
+
 -   Centraal Bureau Statistiek (CBS)
 
-Partijen die de regelgeving, standaarden of centrale registratie voor gegevens
-over bestuurlijke gebieden houden:
+Partijen die de **regelgeving, standaarden, of centrale voorzieningen** voor
+gegevens over bestuurlijke gebieden houden:
 
--   Kadaster
+-   Kadaster / PDOK
 
 -   Geonovum
 
@@ -218,6 +221,13 @@ De dataset Administratieve eenheden (INSPIRE geharmoniseerd) van het
 Informatiehuis Water bevat ook de gemeente- en provinciegrenzen (evenals de
 dataset “Bestuurlijke Grenzen”) maar dan INSPIRE geharmoniseerd.
 
+Nederlandse grenzen op de Noordzee
+----------------------------------
+
+Defensie stelt de [Nederlandse grenzen op de
+Noordzee](https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen/nederlandse-grenzen-op-de-noordzee)
+samen en beschikbaar.
+
 Overige registraties
 --------------------
 
@@ -231,73 +241,107 @@ koppeling met bevoegd gezag):
 Wettelijk kader
 ===============
 
-Hieronder volgt een opsomming van in welke wet- en regelgeving de indeling van
-bestuurlijke gebieden is geregeld:
+Hieronder volgt een (niet-uitputtende) opsomming van in welke wet- en
+regelgeving de indeling van bestuurlijke gebieden is geregeld.
 
--   Kadasterwet (rijk, provincie en gemeente-grenzen)
+Grondwet
+--------
 
--   Internationale verdragen (rijksgrenzen)
+De **bestuurlijke indeling
+van **[Nederland](https://nl.wikipedia.org/wiki/Nederland) wordt geregeld in
+hoofdstuk 7 van
+de [Grondwet](https://nl.wikipedia.org/wiki/Nederlandse_Grondwet). Dit hoofdstuk
+regelt de [provincies](https://nl.wikipedia.org/wiki/Provincies_van_Nederland),
+de [gemeenten](https://nl.wikipedia.org/wiki/Nederlandse_gemeente),
+de [waterschappen](https://nl.wikipedia.org/wiki/Waterschap) en de
+andere [openbare
+lichamen](https://nl.wikipedia.org/wiki/Openbaar_lichaam) alsmede de
+gemeenschappelijke regelingen tussen de openbare lichamen.
 
-    -   Zee:
-        <https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen/nederlandse-grenzen-op-de-noordzee>
+-   *veiligheidsregio:* een openbaar lichaam als bedoeld in [artikel
+    9](https://wetten.overheid.nl/BWBR0027466/2021-07-01#Paragraaf3_Artikel9);
 
-    -   Provinciale verordeningen (waterschapsgrenzen)
+[Artikel 123 van de
+Grondwet](https://wetten.overheid.nl/BWBR0001840/2018-12-21#Hoofdstuk7)
+regelt dat provincies en gemeenten bij wet kunnen worden opgeheven of ingesteld.
+In de [wet ARHI](https://wetten.overheid.nl/BWBR0003718) worden de algemene
+regels voor herindeling vastgelegd. Voor elke splitsing, samenvoeging, en
+grotere grenswijziging is in principe een aparte wet of rijksbesluit nodig.
+Kleinere grenswijzigingen kunnen met een provinciaal besluit worden ingesteld.
 
--   [Artikel 123 van de
-    Grondwet](https://wetten.overheid.nl/BWBR0001840/2018-12-21#Hoofdstuk7)
-    regelt dat provincies en gemeenten bij wet kunnen worden
-    opgeheven of ingesteld. In de [wet
-    ARHI](https://wetten.overheid.nl/BWBR0003718) worden de algemene regels voor
-    herindeling vastgelegd. Voor elke splitsing, samenvoeging, en grotere
-    grenswijziging is in principe een aparte wet of rijksbesluit nodig. Kleinere
-    grenswijzigingen kunnen met een provinciaal besluit worden ingesteld.
+Kadasterwet
+-----------
 
--   In de [Kadasterwet](https://wetten.overheid.nl/BWBR0004541/2021-07-01) wordt
-    de inhoud van de basisregistraties Kadaster (BRK) en Topografie (BRT)
-    geregeld door verwijzing in artikel 48 (BRK) en artikel 98a derde lid (BRT)
-    naar een vast-te-stellen gegevenscatalogus.
+In de [Kadasterwet](https://wetten.overheid.nl/BWBR0004541/2021-07-01) wordt de
+inhoud van de basisregistraties Kadaster (BRK) en Topografie (BRT) geregeld door
+verwijzing in artikel 48 (BRK) en artikel 98a derde lid (BRT) naar een
+vast-te-stellen gegevenscatalogus. In de Kadasterwet worden daarmee de grenzen
+van rijk (op land), provincie en gemeente juridisch verankerd.
+
+Internationale verdragen
+------------------------
+
+Het [Zeerechtverdrag](https://un.org/Depts/los/index.htm) van de Verenigde
+Naties regelt de algemene indeling van maritieme zones. Waar maritieme zones van
+verschillende landen elkaar overlappen zijn er verdragen tussen deze landen,
+bijvoorbeeld Belgïe-Nederland en Duitsland-Nederland. Het Zeerechtverdrag
+beschrijft de volgende zones:
+
+-   de territoriale zee (tot 12 mijl uit de kust);
+
+-   de aansluitende zone (12 tot 24 mijl uit de kust);
+
+-   de exclusieve economische zone (tot 200 mijl uit de kust);
+
+Daar waar gebieden overlappen zijn de grenzen vastgelegd in bilaterale
+overeenkomsten ofwel verdragen tussen landen.
+
+Landsgrenzen zijn vastgelegd in [internationale
+verdragen](https://www.centruminternationaalrecht.nl/landsgrenzen).
+
+[Wet grenzen Nederlandse territoriale zee](https://wetten.overheid.nl/BWBR0003748/)
+-----------------------------------------------------------------------------------
+
+De wet grenzen Nederlandse territoriale zee is een uitwerking van internationale
+verdragen in nationale wetgeving.
+
+[Wet algemene regels herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nmdf8gfh)
+------------------------------------------------------------------------------------------------------------
+
+Provinciale verordeningen (waterschapsgrenzen)
+----------------------------------------------
+
+Wet op de veiligheidsregio’s
+----------------------------
 
 -   De wet op de veiligheidsregio’s regelt in bijlage 1 de toewijzing van
-    gemeenten aan een Veiligheidsregio. Bijlage bij artikel 8 Wet op de
-    Veiligheidsregio’s:
-    <https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage>
-
-[Wet algemene regels
-herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nmdf8gfh)
-
--   Het Zeeverdrag van de Verenigde Naties regelt de algemene indeling van
-    maritieme zones. Waar maritieme zones van verschillende landen elkaar
-    overlappen zijn er verdragen tussen deze landen, bijvoorbeeld
-    Belgïe-Nederland en Duitsland-Nederland.
-
--   Landsgrenzen zijn vastgelegd in internationale verdragen:
-    <https://www.centruminternationaalrecht.nl/landsgrenzen>
-
--   [Wet grenzen Nederlandse territoriale
-    zee](https://wetten.overheid.nl/BWBR0003748/)
+    gemeenten aan een Veiligheidsregio.
+    [Bijlage](https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage) bij
+    artikel 8 Wet op de Veiligheidsregio’s:
 
 Relevante Standaarden
 =====================
 
 Hieronder volgt een opsomming van relevante standaarden
 
-IMKAD 
-------
+IMKAD
+-----
 
-het informatiemodel onder de Basisregistratie Kadaster. Kadaster is beheerder
-van deze standaard.
+Is het
+[informatiemodel](https://www.kadaster.nl/documents/1953498/2770003/BRK+Catalogus.pdf/ede17779-9298-c280-9997-788dd365a132?t=1632486527536)
+onder de Basisregistratie Kadaster. Kadaster is beheerder van deze standaard.
 
-<https://www.kadaster.nl/documents/1953498/2770003/BRK+Catalogus.pdf/ede17779-9298-c280-9997-788dd365a132?t=1632486527536>
+IMGeo
+-----
 
-IMGeo:
+Is het informatiemodel onder de Basisregistratie Grootschalige Topografie.
+Geonovum is beheerder van deze standaard.
 
-het informatiemodel onder de Basisregistratie Grootschalige Topografie. Geonovum
-is beheerder van deze standaard.
+IMBRT
+-----
 
-IMBRT:
-
-het informatiemodel onder de Basisregistratie Topografie. Kadaster is beheerder
-van deze standaard.
+Is het informatiemodel onder de Basisregistratie Topografie. Kadaster is
+beheerder van deze standaard.
 
 Relevante documentatie
 ======================
@@ -308,70 +352,141 @@ paragraaf
 Inhoudelijke keuzes op hoofdlijnen
 ==================================
 
-*Eigenlijk grenzen van openbare lichamen (zoals bedoeld in de Grondwet Hoofdstuk
-7) en maritieme zones*
+Hieronder worden een aantal inhoudelijke keuzes op hoofdlijnen opgesomd ten
+behoeve van de informatiemodellering voor bestuurlijke gebieden.
 
-We kunnen dus bestuurlijke gebieden ‘op land’ en bestuurlijke gebieden ‘op zee’
-onderscheiden. In het document ‘eisen aan inhoud’ voor een samenhangend stelsel
-van geobasisgegevens (werktitel: sor) worden bestuurlijke gebieden als volgt
-gedefineerd:
+Aanpak
+------
 
-*Bestuurlijke gebieden zijn registratieve ruimten die op basis van wet- of
-regelgeving als eenheid gelden van politiek/bestuurlijke verantwoordelijkheid.
-Dit betreft bijvoorbeeld de gebieden behorende bij de vier formele bestuurslagen
-uit de Grondwet (Rijk, provincie, waterschap, gemeente), maar kan ook gebieden
-van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke
-verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de
-veiligheidsregio’s*.
+Er wordt gekozen voor een AGILE-aanpak. We werken de bestuurlijke gebieden op
+basis van het document [‘DiS-Geo
+EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ uit in een informatiemodel
+en een registratievoorziening. Hieruit kunnen vragen over onder meer processen,
+bronhouderschap, brondocumenten en andere juridische aspecten naar voren komen
+die in een later stadium worden uitgewerkt.
 
-In het document ‘eisen aan inhoud’ voor een samenhangend stelsel van
-geobasisgegevens worden de volgende bestuurlijke gebieden onderkend:
+Voor nu wordt er voor gekozen om bestuurlijke gebieden in een apart klein
+informatiemodel te modelleren. Op later moment kan worden bekeken of dit
+informatiemodel wordt geïntegreerd in bijvoorbeeld BRK of BGT.
 
--   [Bestuurlijk
-    gebied](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied)
+N.B. Bij implementatie c.q. formele ingangsdatum van het ‘informatiemodel
+bestuurlijke gebieden’ dienen andere informatiemodellen de bestuurlijke gebieden
+te schrappen, bijvoorbeeld Gemeente uit BRK en/of Waterschap uit IMGeo.
 
-    -   [7.1.1Rijk](https://docs.geostandaarden.nl/disgeo/emso/#rijk)
+Inhoud
+------
 
-    -   [7.1.2Provincie](https://docs.geostandaarden.nl/disgeo/emso/#provincie)
+De volgende bestuurlijke gebieden zijn in scope: Rijk, Provincie, Gemeente,
+Waterschap, Veiligheidsregio, en de Maritieme zones bestaande uit de Nederlandse
+territoriale zee, Nederlandse aansluitende zone, Nederlandse exclusieve
+economische zone, Nederlandse continentaal plat.
 
-    -   [7.1.3Waterschap](https://docs.geostandaarden.nl/disgeo/emso/#waterschap)
+De overage registratieve gebieden/objecten die in document [‘DiS-Geo
+EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ onderkend worden, zijnde
+Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats
+vallen (nu) buiten de scope van het informatiemodel bestuurlijke gebieden.
+Relaties met andere objecten (bijv. Woonplaats, Wijk) kunnen wel worden
+benoemd/geschetst, maar worden niet nader uitgewerkt in het informatiemodel.
 
-    -   [7.1.4Gemeente](https://docs.geostandaarden.nl/disgeo/emso/#gemeente)
+In het document [‘DiS-Geo EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’
+wordt object Rijk onderkend als het rijksgebied op land. Aandachtspunt bij de
+modellering is dat Rijk samengesteld is uit rijksgrens/-gebied op land (huidige
+Rijksgrens in BRK) en rijksgrenzen/-gebieden op zee (huidige maritieme zones van
+Defensie).
 
-    -   [7.1.5Veiligheidsregio](https://docs.geostandaarden.nl/disgeo/emso/#veiligheidsregio)
+Dekking
+-------
 
--   [7.2Bestuurlijk gebied op
-    zee](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee)
+De regels voor opname van bestuurlijke gebieden worden afgebakend tot dekking
+voor het Nederlands grondgebied zonder overzeese gebieden. Bij de uitwerking in
+het informatiemodel en voorzieningen dient rekening te worden gehouden met
+uitbreiding van eventuele exclaves (Baarle-Hertog) en/of BES eilanden op later
+moment.
 
-    -   [7.2.1Nederlandse territoriale
-        zee](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-territoriale-zee)
+Uitbreiding
+-----------
 
-    -   [7.2.2Nederlandse aansluitende
-        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-aansluitende-zone)
+In de modellering moet rekening worden gehouden dat het model -naast
+ondersteuning van veiligheidsregio’s- ook uitgebreid kan worden met andere
+openbare lichamen zoals gemeentelijke samenwerkingsverbanden.
 
-    -   [7.2.3Nederlandse exclusieve economische
-        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-exclusieve-economische-zone)
+Levensloop
+----------
 
-    -   [7.2.4Nederlandse continentaal
-        plat](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-continentaal-plat)
+Elke bestuurlijk gebied krijgt een status, zijnde de fase van de levenscyclus.
+In afwijking van het document ‘[DiS-Geo
+EMSO](https://docs.geostandaarden.nl/disgeo/emso/#levensfasen)’ worden de
+volgende statussen gehanteerd voor een bestuurlijk gebied:
 
-Daarnaast worden andere registratieve gebieden/objecten onderkend, zijnde
-Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats.
-Deze registratieve gebieden vallen buiten de scope van bestuurlijke gebieden.
+-   ontwerp,
 
-We hanteren deze indeling om per bestuurlijk gebied aan te geven, wie de
-stakeholders zijn, hoe het ketenwerkproces verloopt, wat het wettelijk kader is,
-en welke bestaande registraties en standaarden er zijn.
+-   aangewezen
 
-Deze verkenning betreft slechts het Europese grondgebied van het Koninkrijk der
-Nederlanden, niet de overzeese gebiedsdelen. De vraag of de overzeese
-gebiedsdelen meegaan in dit proces is een vraag die afzonderlijk beantwoordt
-dient te worden door BZK.
+-   ingetrokken
+
+-   ten onrechte opgevoerd
+
+Actualiteit
+-----------
+
+Een bestuurlijk gebied dient voor de inwerkingtreding beschikbaar zijn. Een
+voorlopige grens van een bestuurlijk gebied kan voor de inwerkingtreding worden
+aangeleverd.
+
+Geometrische onzekerheid 
+-------------------------
+
+Het model moet met de geometrische (on)zekerheid en (on)nauwkeurigheid van
+bestuurlijk gebieden kunnen omgaan. Over de grenzen op zee zijn
+onenigheden/geschillen tussen buurlanden. Het model moet deze onzekerheid kunnen
+beschrijven, bijvoorbeeld door het toevoegen van een status aan (de coördinaten
+van) de geometrie.
+
+Aanleveren vs. afleiden
+-----------------------
+
+De gegevens over grenzen van rijk, provincie, en gemeente worden in de bestaande
+situatie afgeleid uit de percelen in de BRK. Het is op dit moment onduidelijk of
+deze grenzen/gebieden afgeleide gegevens blijven, of dat er bronhouders (bijv.
+gemeenten) worden aangewezen die deze gegevens zelf aanleveren aan de
+‘Basisregistratie Bestuurlijke Gebieden’. Het informatiemodel moet beide
+varianten aankunnen, of er dient voor elke variant een eigen model te worden
+ontworpen.
+
+Wijzigen en corrigeren van gegevens
+-----------------------------------
+
+Bestuurlijke gebieden met status ‘Ontwerp’ mogen worden gewijzigd. Er ontstaat
+een nieuw voorkomen van dit object.
+
+Gegevens van bestuurlijke gebieden met status ‘Aanwezen’ of ‘Ingetrokken’ mogen
+niet worden gewijzigd (met uitzondering van de status). Deze objecten mogen wel
+worden gecorrigeerd. Voor correctie wordt het oude object gewijzigd naar status
+‘Ten onrechte opgevoerd’ met beginGeldigheid gelijk en nieuwe
+tijdstipregsitratie. Er ontstaat een nieuwe versie in de registratie. Een nieuw
+object met status ‘Aangewezen’ wordt opgevoerd met zelfde tijdstipregistratie
+
+Inwinning
+---------
+
+In de huidige situatie worden de gegevens als volgt ingewonnen:
+
+-   Gegevens van Rijk, provincies en gemeenten worden afgeleid uit kadastrale
+    percelen.
+
+-   Gegevens over Maritieme zones worden ingewonnen uit international verdragen.
+
+-   Gegevens over Waterschappen worden ingewonnen via wet- en regelgeving /
+    besluiten.
+
+-   Gegevens over Veiligheidsregio worden ingewonnen via wet- en regelgeving.
 
 Inhoud (Model)
 --------------
 
 ![](media/6b80caa78f8edf78e617c337caabc132.png)
+
+*Voorbeeld conceptuele schets informatiemodel.*
 
 **classDiagram**
 
@@ -494,298 +609,3 @@ Inhoud (Model)
         geenOverlap**()**
 
     **}**
-
-De volgende gegevens voor de modellering worden gemaakt:
-
--   Voor bestuurlijke gebieden op land worden de gegevens conform
-    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied> opgenomen.
-
--   Voor bestuurlijke gebieden op zee worden de gegevens conform
-    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee>.
-
--   De topologische en adminstratieve relaties worden eveneens overgenomen uit
-    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied> en
-    <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee>
-
--   Elke bestuurlijk gebied
-
--   Elke bestuurlijk gebied krijgt een status, zijnde de fase van de
-    levenscyclus. Voor levensfasen wordt de eisen uit
-    <https://docs.geostandaarden.nl/disgeo/emso/#levensfasen> gehanteerd. In
-    afwijking van dit document worden de volgende statussen gehanteerd voor een
-    bestuurlijk gebied: ontwerp, **vastgesteld/aangewezen (vastgesteld),
-    ingetrokken, ten onrechte opgevoerd (afgevoerd**).
-
-Voorbeeld:
-
-#### Purmerend
-
-De gemeente Beemster wordt op 01-01-2022 middels een lichte samenvoeging
-toegevoegd aan de gemeente Purmerend waarbij de gemeentecode van Purmerend
-gehandhaafd blijft. De gemeentecode van de gemeente Beemster wordt met ingang
-van 01 januari 2022 beëindigd.
-
-Registratie
-
--   Een object Gemeente met naam ‘Purmerend’ en status ‘Aangewezen’ is
-    geregistreerd met eindGeldigheid leeg; een object Gemeente met naam
-    ‘Beemster’ en status ‘Aangewezen’ is geregistreerd met eindGeldigheid leeg.
-
--   Een object Gemeente met naam ‘Purmerend’ en status ‘Ontwerp’ wordt
-    geregistreerd op 30-01-2018 met beginGeldigheid 29 januari 2018. De
-    geometrie bestaat uit de samengestelde contour van Gemeente ‘Purmerend’
-    ‘Aangewezen’ en Gemeente ‘Beemster’ ‘Aangewezen’.
-
--   Op 31-12-2021 wordt
-
--   Op 01-01-2022
-
-Actualiteit (Model)
--------------------
-
-Een bestuurlijk gebied dient voor de inwerkingtreding beschikbaar zijn. Een
-voorlopige grens van een bestuurlijk gebied kan voor de inwerkingtreding worden
-aangeleverd.
-
-Bronhouders (juridisch)
------------------------
-
-| Rijk (grenzen op land) | Kadaster?                                                            |
-|------------------------|----------------------------------------------------------------------|
-| Provincie              | Kadaster?                                                            |
-| Gemeente               | Kadaster?                                                            |
-| Waterschap             | Unie van Waterschappen (Informatiehuis Water)                        |
-| Veiligheidsregio       | Ministerie van Justitie en Veiligheid (Instituut Fysieke Veiligheid) |
-| Rijk op zee            | Ministerie van Defensie (Dienst der Hydrografie)                     |
-| Waterschap             | Unie van Waterschappen / Informatiehuis Water                        |
-
-Inwinning
----------
-
--   Gegevens van Rijk, provincies en gemeenten worden afgeleid uit kadastrale
-    percelen.
-
--   Gegevens over Maritieme zones op zee worden ingewonnen uit international
-    verdragen.
-
--   Gegevens over Waterschappen worden ingewonnen via wet- en regelgeving /
-    besluiten.
-
--   Gegevens over Veiligheidsregio worden ingewonnen via wet- en regelgeving.
-
-Wijzigen en corrigeren van gegevens (Model + Voorzieningen)
------------------------------------------------------------
-
-Bestuurlijke gebieden met status ‘Ontwerp’ mogen worden gewijzigd. Er ontstaat
-een nieuw voorkomen van dit object.
-
-Gegevens van bestuurlijke gebieden met status ‘Aanwezen’ of ‘Ingetrokken’ mogen
-niet worden gewijzigd (met uitzondering van de status). Deze objecten mogen wel
-worden gecorrigeerd. Voor correctie wordt het oude object gewijzigd naar status
-‘Ten onrechte opgevoerd’ met beginGeldigheid gelijk en nieuwe
-tijdstipregsitratie. Er ontstaat een nieuwe versie in de registratie. Een nieuw
-object met status ‘Aangewezen’ wordt opgevoerd met zelfde tijdstipregistratie
-
-Correcties op gegevens zijn wel mogelijk.
-
-Aanlevering en verstrekking (voorzieningen)
--------------------------------------------
-
-**Optie 1:**
-
-Elke bronhouder stelt zijn gegevens beschikbaar op de eigen server middels een
-API.
-
-Een API op de API’s levert de gegevens door afnemers.
-
-![](media/4cc49fac198cc25014dd71bd62085ae3.png)
-
-**Optie 2:**
-
-Elke bronhouder levert de gegevens aan een centrale registratie. Een API op de
-centrale registratie levert de gegevens richting afnemers.
-
-![](media/67156e86cb28ec83bb940238c40b20ea.png)
-
-Bijlagen / overig te verwerken
-==============================
-
-**Normale basislijnen en rechte basislijnen**
-
-Een basislijn is de lijn die de territoriale zee scheidt van het land en de
-binnenwateren. Basislijnen staan centraal in het Zeerechtverdrag, omdat ze de
-grondslag vormen voor de maritieme zones. Er zijn 2 soorten basislijnen:
-
--   **Rechte basislijnen**
-
-Deze zijn bij wet vastgesteld. Rechte basislijnen geven aan waar de grens ligt
-tussen de territoriale zee en de binnenwateren. Nederland heeft in 1985 rechte
-basislijnen vastgesteld in de [Wet grenzen Nederlandse territoriale
-zee](https://wetten.overheid.nl/BWBR0003748/1985-06-01).
-
--   **Normale basislijnen**
-
-Een normale basislijn loopt daar waar de zee bij eb droogvalt (laagwaterlijn).
-Deze 0-meter dieptelijnen zijn terug te vinden op de officiële zeekaarten van de
-Dienst der Hydrografie. De meest recente kaarten met een schaal van uiterlijk
-1:150.000, of hun digitale equivalent.
-
-Grenscorrecties van gemeenten
-
-Stakeholders
-
-Bestaande softwaresystemen
-
-![Afbeelding met tafel Automatisch gegenereerde beschrijving](media/a50d3839288b07fbe3d16e799db0f880.png)
-
-Afbeelding met tafel Automatisch gegenereerde beschrijving
-
-Afbeelding met tafel Automatisch gegenereerde beschrijving
-
-Afbeelding met tafel Automatisch gegenereerde beschrijving
-
-Afbeelding met tafel Automatisch gegenereerde beschrijving
-
-registratieve gebieden. Registratieve gebieden liggen als virtuele gebieden
-boven de reële objectklassen (wegdelen, waterdelen, terrein, bebouwing,
-inrichtingselementen en reliëf).
-
-BGT
-
-INSPIRE
-
-<https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/2d4ec7e6-50ae-4c71-bd20-5b9211e2135f?tab=inspire>
-
-Waterschapsgrenzen INSPIRE
-
-De dataset geeft informatie over de waterschapsgrenzen.  
-Waterschapsgrens: Grens van het grondgebied onder het bestuur van een
-waterschap. Bron: AquoLex v11 (afgeleid) [www.aquo.nl](http://www.aquo.nl/)
-
-Bestuurlijke grenzen
-
-Bestuurlijke Grenzen bestaan uit de gemeente-, provincie- en rijksgrenzen. Deze
-worden vervaardigd op basis van de kadastrale registratie (BRK). Jaarlijks wordt
-de dataset geupdate.
-
-<https://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/fe24c2a7-b121-4177-887a-fa16d943729b>
-
-Wettelijk kader
-
-De **bestuurlijke indeling
-van **[Nederland](https://nl.wikipedia.org/wiki/Nederland) wordt geregeld in
-hoofdstuk 7 van
-de [Grondwet](https://nl.wikipedia.org/wiki/Nederlandse_Grondwet). Dit hoofdstuk
-regelt de [provincies](https://nl.wikipedia.org/wiki/Provincies_van_Nederland),
-de [gemeenten](https://nl.wikipedia.org/wiki/Nederlandse_gemeente),
-de [waterschappen](https://nl.wikipedia.org/wiki/Waterschap) en de
-andere [openbare
-lichamen](https://nl.wikipedia.org/wiki/Openbaar_lichaam) alsmede de
-gemeenschappelijke regelingen tussen de openbare
-lichamen.[[1]](https://nl.wikipedia.org/wiki/Bestuurlijke_indeling_van_Nederland#cite_note-1)
-
--   *veiligheidsregio:* een openbaar lichaam als bedoeld in [artikel
-    9](https://wetten.overheid.nl/BWBR0027466/2021-07-01#Paragraaf3_Artikel9);
-
-Het **Zeerechtverdrag van de Verenigde Naties** – waarvan Nederland
-verdragspartner is – maakt onderscheid tussen zeegebied binnen en buiten de
-rechtsmacht van kuststaten. De Noordzee valt in zijn geheel binnen de
-rechtsmacht van de omliggende kuststaten. De grenzen van het Nederlands deel van
-de Noordzee zijn in 1958 vastgelegd in een verdrag met België, Duitsland en het
-Verenigd Koninkrijk.
-
-https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen
-
-[Zeerechtverdrag](https://un.org/Depts/los/index.htm) van de Verenigde Naties.
-Dat verdrag beschrijft de volgende zones:
-
--   de territoriale zee (tot 12 mijl uit de kust);
-
--   de aansluitende zone (12 tot 24 mijl uit de kust);
-
--   de exclusieve economische zone (tot 200 mijl uit de kust);
-
--   het continentaal plat (de zeebodem).
-
-Daar waar gebieden overlappen zijn de grenzen vastgelegd in overeenkomsten ofwel
-verdragen:
-
-Territoriale zee Nederland België
-
-Grenzen continentaal plat zijn vastgelegd in overeenkomsten c.q. verdragen.
-
-Kadastraal object heeft 1..1 gemeentecode.
-
-De volgende (bijzondere) gemeenten worden sinds 2010 als openbaar lichaam
-bestuurd:
-
--   [Bonaire](https://nl.wikipedia.org/wiki/Bonaire)
-
--   [Sint Eustatius](https://nl.wikipedia.org/wiki/Sint_Eustatius)
-
--   [Saba](https://nl.wikipedia.org/wiki/Saba)
-
-Bonaire, Sint Eustatius en Saba, ook wel de BES-eilanden genoemd, liggen
-in [Caribisch Nederland](https://nl.wikipedia.org/wiki/Caribisch_Nederland); ze
-worden afzonderlijk van elkaar bestuurd.
-
-De Nederlandse
-gemeente [Kerkrade](https://nl.wikipedia.org/wiki/Kerkrade_(gemeente)) en Duitse
-gemeente 's-Hertogenrade (Herzogenrath) vormen samen een grensoverschrijdend
-openbaar lichaam:
-
--   [Eurode](https://nl.wikipedia.org/wiki/Eurode) (sinds
-    1998)[[1]](https://nl.wikipedia.org/wiki/Openbaar_lichaam#cite_note-1)
-
-De volgende organisaties worden als openbaar lichaam bestuurd:
-
--   veel publiekrechtelijke samenwerkingen op basis van de [Wet
-    gemeenschappelijke
-    regelingen](https://nl.wikipedia.org/wiki/Wet_gemeenschappelijke_regelingen) (Wgr)
-
--   [Veiligheidsregio](https://nl.wikipedia.org/wiki/Veiligheidsregio)**'s**
-
--   [Nederlandse Orde van
-    Advocaten](https://nl.wikipedia.org/wiki/Nederlandse_Orde_van_Advocaten) (1952)
-
--   [Orde van
-    Octrooigemachtigden](https://nl.wikipedia.org/wiki/Octrooigemachtigde)
-
--   [Nederlandse
-    Loodsencorporatie](https://nl.wikipedia.org/w/index.php?title=Nederlandse_Loodsencorporatie&action=edit&redlink=1) (NLC,
-
--   [Koninklijke Notariële
-    Beroepsorganisatie](https://nl.wikipedia.org/wiki/Koninklijke_Notari%C3%ABle_Beroepsorganisatie) (1999)
-
--   [Koninklijke Beroepsorganisatie van
-    Gerechtsdeurwaarders](https://nl.wikipedia.org/w/index.php?title=Koninklijke_Beroepsorganisatie_van_Gerechtsdeurwaarders&action=edit&redlink=1) (KBvG)
-
--   [Nederlandse Beroepsorganisatie van
-    Accountants](https://nl.wikipedia.org/wiki/Nederlandse_Beroepsorganisatie_van_Accountants) (NBA,
-
-    1.  (sinds 2015: [Koninklijke Nederlandse Beroepsorganisatie van
-        Accountants](https://nl.wikipedia.org/wiki/Koninklijke_Nederlandse_Beroepsorganisatie_van_Accountants),
-        KNBA)
-
--   [Arbeidsvoorzieningsorganisatie](https://nl.wikipedia.org/w/index.php?title=Arbeidsvoorzieningsorganisatie&action=edit&redlink=1) (1990)
-
--   [Gezamenlijke
-    Brandweer](https://nl.wikipedia.org/wiki/Gezamenlijke_Brandweer) Rotterdam-Rijnmond
-
--   [Omgevingsdiensten](https://nl.wikipedia.org/w/index.php?title=Omgevingsdienst&action=edit&redlink=1) (sinds
-    1 april 2013, ter regionale uitvoering van bestuurlijke bevoegdheden op
-    grond van Wabo)
-
-[Wet algemene regels
-herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nmdf8gfh)
-
-Relevante standaarden
-
-Relevante documentatie
-
-Inhoudelijke keuzes op hoofdlijnen
-
-Beperking tot grondgebied van Nederland m.u.v. overzeese gebieden. Bijzondere
-gemeenten zijn buitenscope
-
-Aanpak en langetermijnplanning
