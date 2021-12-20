@@ -1,74 +1,47 @@
 Beschrijving van bestuurlijke gebieden
 ======================================
 
-Voorbeelden van openbare lichaam zijn Rijk, gemeenten, provincies, waterschappen
-en samenwerkingsverbanden zoals veiligheidsregio’s.
+Vanuit de doorontwikkeling van de geobasisregistraties in samenhang (DiS-Geo) is
+de behoefte ontstaan om diverse bestuurlijke gebieden beter bruikbaar te maken
+binnen de context van een samenhangend stelsel van geo-basisgegevens.
+Voorbeelden van bestuurlijke gebieden, ookwel openbare lichaam, zijn Rijk,
+gemeenten, provincies, waterschappen en samenwerkingsverbanden zoals
+veiligheidsregio’s.
 
 Daarnaast beschouwen we ook de grenzen op zee die de maritieme zones ruimtelijk
 afbakenen ook als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
 territoriale zee, aansluitende en economische zone en het continentaal plat.
 
-*Eigenlijk grenzen van openbare lichamen (zoals bedoeld in de Grondwet Hoofdstuk
-7) en maritieme zones*
+Gegevens over bestuurlijke gebieden kunnen in het huidige stelsel van
+geobasisregistraties op meerdere plekken worden opgenomen, onder meer in de
+Basisregistratie Kadaster (BRK) en Basisregistratie Grootschalige Topografie
+(BGT). Elke basisregistratie doet dat op zijn eigen manier: met eigen
+identificaties en eigenschappen.
 
-We kunnen dus bestuurlijke gebieden ‘op land’ en bestuurlijke gebieden ‘op zee’
-onderscheiden. In het document ‘eisen aan inhoud’ voor een samenhangend stelsel
-van geobasisgegevens (werktitel: sor) worden bestuurlijke gebieden als volgt
-gedefineerd:
+In het document [‘DiS-Geo EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ is
+gedefineerd welke wensen en eisen er zijn ten aanzien van inhoud van
+bestuurlijke gebieden in de geobasisregistraties. Hierin worden onder meer
+unieke aanduiding, naamgeving en relaties tot andere bestuurlijke gebieden
+onderkend.
 
-*Bestuurlijke gebieden zijn registratieve ruimten die op basis van wet- of
-regelgeving als eenheid gelden van politiek/bestuurlijke verantwoordelijkheid.
-Dit betreft bijvoorbeeld de gebieden behorende bij de vier formele bestuurslagen
-uit de Grondwet (Rijk, provincie, waterschap, gemeente), maar kan ook gebieden
-van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke
-verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de
-veiligheidsregio’s*.
-
-In het document ‘[eisen aan
-inhoud](https://docs.geostandaarden.nl/disgeo/emso/)’ voor een samenhangend
-stelsel van geobasisgegevens worden de volgende bestuurlijke onderkend:
-
--   [Bestuurlijk
-    gebied](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied)
-
-    -   [7.1.1Rijk](https://docs.geostandaarden.nl/disgeo/emso/#rijk)
-
-    -   [7.1.2Provincie](https://docs.geostandaarden.nl/disgeo/emso/#provincie)
-
-    -   [7.1.3Waterschap](https://docs.geostandaarden.nl/disgeo/emso/#waterschap)
-
-    -   [7.1.4Gemeente](https://docs.geostandaarden.nl/disgeo/emso/#gemeente)
-
-    -   [7.1.5Veiligheidsregio](https://docs.geostandaarden.nl/disgeo/emso/#veiligheidsregio)
-
--   [7.2Bestuurlijk gebied op
-    zee](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee)
-
-    -   [7.2.1Nederlandse territoriale
-        zee](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-territoriale-zee)
-
-    -   [7.2.2Nederlandse aansluitende
-        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-aansluitende-zone)
-
-    -   [7.2.3Nederlandse exclusieve economische
-        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-exclusieve-economische-zone)
-
-    -   [7.2.4Nederlandse continentaal
-        plat](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-continentaal-plat)
-
-Daarnaast worden andere registratieve gebieden/objecten onderkend, zijnde
-Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats.
-Deze registratieve gebieden vallen buiten de scope van bestuurlijke gebieden.
-
-We hanteren deze indeling om per bestuurlijk gebied aan te geven, wie de
-stakeholders zijn, hoe het ketenwerkproces verloopt, wat het wettelijk kader is,
-en welke bestaande registraties en standaarden er zijn.
+Gebruikers van deze gegevens zijn gebaat bij meer consistentie en samenhang in
+de gegevens over en ontsluiting van bestuurlijke gebieden. Beoogde gebruikers
+van bestuurlijke gebieden zijn onder meer vergunningverlening in het kader van
+de Omgevingswet, Centraal Bureau voor de Statistiek (CBS), en
+veiligheidheidsdiensten.
 
 Het (keten)werkproces waarin bestuurlijke gebieden worden geproduceerd
 ======================================================================
 
-Bestuurlijke gebieden op land:
-------------------------------
+Bestuurlijke gebieden worden op meerdere plekken bijgehouden en ontsloten. Hier
+onder volgt een opsomming van de (keten)werkprocessen waarin bestuurlijke
+gebieden worden geproduceerd
+
+Bestuurlijke gebieden op land
+-----------------------------
+
+De gegevens over bestuurlijke gebieden op land, ofwel rijk op land, provincies,
+gemeenten, waterschappen en veiligheidsregio’s worden als volgt geproduceerd.
 
 ### Rijk (land)
 
@@ -99,27 +72,20 @@ Bestuurlijke gebieden op land:
     van waterschappen. Tevens ontsluiten enkele provincies losse datasets met
     daarin de grenzen van de binnen hun provincie gelegen waterschappen.
 
--   BGT IMGeo biedt ook een vrijwillige mogelijkheid om waterschapsgrenzen vast
-    te leggen.
+-   De BGT biedt in het vrijwillige deel van IMGeo ook de mogelijkheid om
+    waterschapsgrenzen vast te leggen.
 
 ### Veiligheidsregio
 
-Bestuurlijke gebieden op zee:
------------------------------
+-   De grenzen worden vastgesteld in de
 
-Nederlandse territoriale zee
+Bestuurlijke gebieden op zee
+----------------------------
 
-Nederlandse aansluitende zone
+De gegevens over bestuurlijke gebieden op zee, ofwel de maritieme zones worden
+als volgt geproduceerd.
 
-Nederlandse exclusieve economische zone
-
-Nederlandse continentaal plat
-
-Rijk (zee)
-----------
-
--   De grenzen worden in (internationale) verdragen formeel vastgesteld door het
-    Rijk.
+### Maritieme zones
 
 -   De grenzen *op zee* worden (authentiek) vastgelegd door de Dienst der
     Hydrografie (volgens IHO S-44 en S-57), en ontsloten middels losse datasets
@@ -129,12 +95,22 @@ Rijk (zee)
     overeenkomst, grenzen particularly sensitive Sea Area (PSSA) Waddenzee,
     Blokindeling Nederlands continentaal plat).
 
-De [maritieme zones(verwijst naar een andere
-website)](https://www.defensie.nl/onderwerpen/hydrografie/maritieme-zones-en-zeegrenzen) worden
-gepubliceerd door de Dienst der Hydrografie van Defensie.
+-   De maritieme zones worden gepubliceerd door de Dienst der Hydrografie van
+    Defensie.
 
 Stakeholders
 ============
+
+### Bronhouders
+
+Partijen die grenzen van bestuurlijke gebieden **inwinnen en/of bijhouden**
+onder meer:
+
+-   Kadaster
+
+-   Ministerie Defensie
+
+Partijen die gegevens van bestuurlijke gebieden **gebruiken** onder meer:
 
 -   Alle partijen die behoefte hebben aan relatering aan locatie en gebied van
     bevoegd gezagen, werkingsgebieden en beheergebieden, onder meer
@@ -143,47 +119,110 @@ Stakeholders
 
 -   Centraal Bureau Statistiek (CBS)
 
-Partijen die grenzen van bestuurlijke gebieden inwinnen en/of bijhouden onder
-meer:
+Partijen die de regelgeving, standaarden of centrale registratie voor gegevens
+over bestuurlijke gebieden houden:
 
 -   Kadaster
 
--   Ministerie Defensie
+-   Geonovum
+
+-   Ministerie van Binnenlandse Zaken
 
 Bestaande softwaresystemen
 ==========================
 
-Landelijke Voorziening
+In de volgende softwaresystemen worden in de bestaande situatie gegevens over
+bestuurlijke gebieden ingewonnen, bijgehouden, geregistreerd, of beschikbaar
+gesteld.
 
-Kadastrale Kaart
+Landelijke Voorzieningen Kadaster
+---------------------------------
+
+In de landelijke voorzieningen van de BRK (Kadastrale Kaart), BGT en BRT wordt
+de opname van bestuurlijke gebieden ondersteund:
+
+-   In de BRK de grenzen van gemeenten, provincies en rijk op land.
+
+-   In de BGT de grenzen van waterschappen.
+
+-   In de BRT de gegeneraliseerde grenzen van gemeenten, provincies en rijk op
+    land.
 
 Waterschappen Administratieve eenheden INSPIRE WMS
+--------------------------------------------------
+
+Het Informatiehuis Water publiceert de grenzen van Waterschappen zijnde de
+administratieve eenheden vanuit de INSPIRE-leververplichting middels een WMS.
+
+BGT bronhoudersoftware
+----------------------
+
+De bronhouders van de BGT gebruiken software om objectgegevens conform de
+BGT\|IMGeo standaarden bij te houden en aan te leveren aan de Landelijke
+voorziening BGT, waaronder ook de mogelijkheid om grenzen van waterschappen te
+leveren.
+
+PDOK
+----
+
+Via [PDOK](https://www.pdok.nl/introductie/-/article/bestuurlijke-gebieden)
+wordt de bestuurlijke indeling van Nederland in gemeenten, provincies alsmede de
+landsgrens beschikbaar gesteld aan afnemers. Deze gegevens zijn afgeleid uit de
+BRK:
+
+Bestuurlijke grenzen API
+------------------------
+
+De [Bestuurlijke Grenzen
+API](https://brk.basisregistraties.overheid.nl/bestuurlijke-grenzen-api) van het
+Kadaster combineert de Rijksgrenzen (op land), provinciegrenzen en
+gemeentegrenzen uit de BRK met de grenzen op zee van de Dienst der Hydrografie
+en de waterschapsgrenzen van het waterschapshuis/unie van waterschappen.
 
 Bestaande registraties
 ======================
 
--   **BRK:** de jaarlijkse dataset “Bestuurlijke Grenzen” bevat de landsgrens
-    (behalve de zeegrenzen), provinciegrenzen, gemeentegrenzen.
+Hieronder volgt een overzicht van de bestaande (basis)registraties waarin
+gegevens over bestuurlijke gebieden zijn geregistreerd:
 
--   **BRK:** de dataset Administratieve eenheden (INSPIRE geharmoniseerd) bevat
-    ook de gemeente- en provinciegrenzen (evenals de dataset “Bestuurlijke
-    Grenzen”) maar dan INSPIRE geharmoniseerd.
+Basisregistratie Kadaster (BRK)
+-------------------------------
 
--   **BRT:** de dataset “TopGrenzen” bevat de gegeneraliseerde gemeentegrenzen,
-    provinciegrenzen en de landsgrens (behalve die op zee). De grenzen worden
-    overgenomen uit de BRK en voor de toepasselijke kaartschaal gegeneraliseerd.
+De [Basisregistratie Kadaster
+(BRK)](https://www.geobasisregistraties.nl/basisregistraties/kadaster) leidt
+jaarlijks de dataset “Bestuurlijke Grenzen” af uit de kadastrale percelen. De
+dataset bevat de landsgrens (behalve de zeegrenzen), provinciegrenzen,
+gemeentegrenzen.
 
--   De **Bestuurlijke Grenzen API** van het Kadaster combineert de Rijksgrenzen
-    (op land), provinciegrenzen en gemeentegrenzen uit de BRK met de grenzen op
-    zee van de Dienst der Hydrografie en de waterschapsgrenzen van het
-    waterschapshuis/unie van waterschappen.
+Basisregistratie Grootschalige Topografie (BGT)
+-----------------------------------------------
 
--   **BGT/IMGeo**: IMGeo biedt ruimte voor de vrijwillige vastlegging van
-    waterschapsgrenzen. Van die mogelijkheid wordt echter vrijwel geen gebruik
-    gemaakt (0 in november 2019).
+De [Basisregistratie Grootschalige Topografie
+(BGT)](https://www.geobasisregistraties.nl/basisregistraties/grootschalige-topografie)
+biedt ruimte voor de vrijwillige vastlegging van waterschapsgrenzen. Van die
+mogelijkheid wordt echter vrijwel geen gebruik gemaakt (0 in november 2019).
 
--   Andere relevante registraties (voor Bestuurlijke Grenzen API nodig voor
-    koppeling met bevoegd gezag):
+Basisregistatie Topografie (BRT)
+--------------------------------
+
+De [Basisregistatie Topografie
+(BRT)](https://www.geobasisregistraties.nl/basisregistraties/topografie) bevat
+de dataset “TopGrenzen” met de gegeneraliseerde gemeentegrenzen,
+provinciegrenzen en de landsgrens (behalve die op zee). De grenzen worden
+overgenomen uit de BRK en voor de toepasselijke kaartschaal gegeneraliseerd.
+
+INSPIRE Administratieve eenheden
+--------------------------------
+
+De dataset Administratieve eenheden (INSPIRE geharmoniseerd) van het
+Informatiehuis Water bevat ook de gemeente- en provinciegrenzen (evenals de
+dataset “Bestuurlijke Grenzen”) maar dan INSPIRE geharmoniseerd.
+
+Overige registraties
+--------------------
+
+Andere relevante registraties (voor Bestuurlijke Grenzen API nodig voor
+koppeling met bevoegd gezag):
 
 -   Centrale OIN raadpleegvoorziening Logius
 
@@ -191,6 +230,9 @@ Bestaande registraties
 
 Wettelijk kader
 ===============
+
+Hieronder volgt een opsomming van in welke wet- en regelgeving de indeling van
+bestuurlijke gebieden is geregeld:
 
 -   Kadasterwet (rijk, provincie en gemeente-grenzen)
 
@@ -234,19 +276,224 @@ herindeling](http://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vi32nm
 -   [Wet grenzen Nederlandse territoriale
     zee](https://wetten.overheid.nl/BWBR0003748/)
 
-Relevante standaarden
+Relevante Standaarden
 =====================
 
+Hieronder volgt een opsomming van relevante standaarden
+
+IMKAD 
+------
+
+het informatiemodel onder de Basisregistratie Kadaster. Kadaster is beheerder
+van deze standaard.
+
 <https://www.kadaster.nl/documents/1953498/2770003/BRK+Catalogus.pdf/ede17779-9298-c280-9997-788dd365a132?t=1632486527536>
+
+IMGeo:
+
+het informatiemodel onder de Basisregistratie Grootschalige Topografie. Geonovum
+is beheerder van deze standaard.
+
+IMBRT:
+
+het informatiemodel onder de Basisregistratie Topografie. Kadaster is beheerder
+van deze standaard.
 
 Relevante documentatie
 ======================
 
+Zie voor relevante documentatie de opsomming van wet- en regelgeving in
+paragraaf
+
 Inhoudelijke keuzes op hoofdlijnen
 ==================================
 
+*Eigenlijk grenzen van openbare lichamen (zoals bedoeld in de Grondwet Hoofdstuk
+7) en maritieme zones*
+
+We kunnen dus bestuurlijke gebieden ‘op land’ en bestuurlijke gebieden ‘op zee’
+onderscheiden. In het document ‘eisen aan inhoud’ voor een samenhangend stelsel
+van geobasisgegevens (werktitel: sor) worden bestuurlijke gebieden als volgt
+gedefineerd:
+
+*Bestuurlijke gebieden zijn registratieve ruimten die op basis van wet- of
+regelgeving als eenheid gelden van politiek/bestuurlijke verantwoordelijkheid.
+Dit betreft bijvoorbeeld de gebieden behorende bij de vier formele bestuurslagen
+uit de Grondwet (Rijk, provincie, waterschap, gemeente), maar kan ook gebieden
+van bestuurlijke samenwerkingsverbanden met eigen politiek/bestuurlijke
+verantwoordelijkheid omvatten. Een voorbeeld daarvan betreft de
+veiligheidsregio’s*.
+
+In het document ‘eisen aan inhoud’ voor een samenhangend stelsel van
+geobasisgegevens worden de volgende bestuurlijke gebieden onderkend:
+
+-   [Bestuurlijk
+    gebied](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied)
+
+    -   [7.1.1Rijk](https://docs.geostandaarden.nl/disgeo/emso/#rijk)
+
+    -   [7.1.2Provincie](https://docs.geostandaarden.nl/disgeo/emso/#provincie)
+
+    -   [7.1.3Waterschap](https://docs.geostandaarden.nl/disgeo/emso/#waterschap)
+
+    -   [7.1.4Gemeente](https://docs.geostandaarden.nl/disgeo/emso/#gemeente)
+
+    -   [7.1.5Veiligheidsregio](https://docs.geostandaarden.nl/disgeo/emso/#veiligheidsregio)
+
+-   [7.2Bestuurlijk gebied op
+    zee](https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee)
+
+    -   [7.2.1Nederlandse territoriale
+        zee](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-territoriale-zee)
+
+    -   [7.2.2Nederlandse aansluitende
+        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-aansluitende-zone)
+
+    -   [7.2.3Nederlandse exclusieve economische
+        zone](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-exclusieve-economische-zone)
+
+    -   [7.2.4Nederlandse continentaal
+        plat](https://docs.geostandaarden.nl/disgeo/emso/#nederlandse-continentaal-plat)
+
+Daarnaast worden andere registratieve gebieden/objecten onderkend, zijnde
+Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats.
+Deze registratieve gebieden vallen buiten de scope van bestuurlijke gebieden.
+
+We hanteren deze indeling om per bestuurlijk gebied aan te geven, wie de
+stakeholders zijn, hoe het ketenwerkproces verloopt, wat het wettelijk kader is,
+en welke bestaande registraties en standaarden er zijn.
+
+Deze verkenning betreft slechts het Europese grondgebied van het Koninkrijk der
+Nederlanden, niet de overzeese gebiedsdelen. De vraag of de overzeese
+gebiedsdelen meegaan in dit proces is een vraag die afzonderlijk beantwoordt
+dient te worden door BZK.
+
 Inhoud (Model)
 --------------
+
+![](media/6b80caa78f8edf78e617c337caabc132.png)
+
+**classDiagram**
+
+    \_BestuurlijkGebied **\<\|--** Rijk
+
+    \_BestuurlijkGebied **\<\|--** RijksgebiedOpLand
+
+    \_BestuurlijkGebied **\<\|--** MaritiemeZoneOpZee
+
+    \_BestuurlijkGebied **\<\|--** Provincie
+
+    \_BestuurlijkGebied **\<\|--** Gemeente
+
+    \_BestuurlijkGebied **\<\|--** Waterschap
+
+    \_BestuurlijkGebied **\<\|--** Veiligheidsregio
+
+    Rijk **\*--** RijksgebiedOpLand**:** isSamengesteldUit
+
+    Rijk **\*--** MaritiemeZoneOpZee**:** isSamengesteldUit
+
+    Rijk **\<--** Provincie**:** ligtIn
+
+    Provincie **\<--** Gemeente**:** ligtIn
+
+    Veiligheidsregio **\*--** Gemeente**:** isSamengesteldUit
+
+    MaritiemeZoneOpZee **..** TypeMaritiemeZone
+
+    TypeMaritiemeZone**: +**economische exclusieve zone
+
+    TypeMaritiemeZone**: +**kustlijn
+
+    \_BestuurlijkGebied **..** Status
+
+    Status**: +**ontwerp
+
+    Status**: +**aangewezen
+
+    Status**: +**ingetrokken    
+
+    \_BestuurlijkGebied **..** TijdlijnGeldigheid
+
+    **class** TijdlijnGeldigheid **{**
+
+        **+** beginGeldigheid**:** tijdstip
+
+        **+** eindGeldigheid**:** tijdstip
+
+    **}**
+
+    **class** \_BestuurlijkGebied **{**
+
+        **+**identificatie**:** id
+
+        **+**bronhouder**:** code
+
+        **+**status**:** Status
+
+        **+**geldigheid**:** TijdlijnGeldigheid
+
+        **+**naam**:** string
+
+    **}**
+
+    **class** Rijk **{**
+
+        **+**geometrie**:** multigeometrie
+
+    **}**
+
+    Provincie
+
+    **class** RijksgebiedOpLand **{**
+
+        **+**geometrie**:** vlak
+
+    **}**
+
+    **class** MaritiemeZoneOpZee **{**
+
+        **+**type**:** TypeMaritiemeZone
+
+        **+**geometrie**:** vlak
+
+    **}**
+
+    **class** Veiligheidsregio **{**
+
+        **+**code**:** Veiligheidsregiocode    
+
+    **}**
+
+    **class** Waterschap **{**
+
+        **+**code**:** Waterschapscode
+
+        geenGaten**()**
+
+        geenOverlap**()**
+
+    **}**
+
+    **class** Provincie **{**
+
+        **+**code**:** Provinciecode
+
+        geenGaten**()**
+
+        geenOverlap**()**
+
+    **}**
+
+    **class** Gemeente **{**
+
+        **+**code**:** Gemeentecode
+
+        geenGaten**()**
+
+        geenOverlap**()**
+
+    **}**
 
 De volgende gegevens voor de modellering worden gemaakt:
 
@@ -260,8 +507,7 @@ De volgende gegevens voor de modellering worden gemaakt:
     <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied> en
     <https://docs.geostandaarden.nl/disgeo/emso/#bestuurlijk-gebied-op-zee>
 
-Status (Model)
---------------
+-   Elke bestuurlijk gebied
 
 -   Elke bestuurlijk gebied krijgt een status, zijnde de fase van de
     levenscyclus. Voor levensfasen wordt de eisen uit
@@ -391,6 +637,8 @@ Stakeholders
 Bestaande softwaresystemen
 
 ![Afbeelding met tafel Automatisch gegenereerde beschrijving](media/a50d3839288b07fbe3d16e799db0f880.png)
+
+Afbeelding met tafel Automatisch gegenereerde beschrijving
 
 Afbeelding met tafel Automatisch gegenereerde beschrijving
 
