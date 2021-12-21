@@ -541,7 +541,7 @@ classDiagram
 
 *Voorbeeld conceptuele schets informatiemodel.*
 
-<div class="mermaid"
+<div class="mermaid">
 classDiagram
 _BestuurlijkGebied .. Status
 Status: +ontwerp
