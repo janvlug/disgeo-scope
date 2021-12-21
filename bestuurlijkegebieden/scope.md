@@ -414,9 +414,8 @@ Levensloop
 ----------
 
 Elke bestuurlijk gebied krijgt een status, zijnde de fase van de levenscyclus.
-In afwijking van het document ‘[DiS-Geo
-EMSO](https://docs.geostandaarden.nl/disgeo/emso/#levensfasen)’ worden de
-volgende statussen gehanteerd voor een bestuurlijk gebied:
+In afwijking van het document ‘DiS-Geo EMSO’ worden de volgende statussen
+gehanteerd voor een bestuurlijk gebied:
 
 -   ontwerp,
 
@@ -484,128 +483,130 @@ In de huidige situatie worden de gegevens als volgt ingewonnen:
 Inhoud (Model)
 --------------
 
-![](media/6b80caa78f8edf78e617c337caabc132.png)
-
 *Voorbeeld conceptuele schets informatiemodel.*
 
-**classDiagram**
+<div class="mermaid">
 
-    \_BestuurlijkGebied **\<\|--** Rijk
+classDiagram
 
-    \_BestuurlijkGebied **\<\|--** RijksgebiedOpLand
+    _BestuurlijkGebied <|-- Rijk
 
-    \_BestuurlijkGebied **\<\|--** MaritiemeZoneOpZee
+    _BestuurlijkGebied <|-- RijksgebiedOpLand
 
-    \_BestuurlijkGebied **\<\|--** Provincie
+    _BestuurlijkGebied <|-- MaritiemeZone
 
-    \_BestuurlijkGebied **\<\|--** Gemeente
+    _BestuurlijkGebied <|-- Provincie
 
-    \_BestuurlijkGebied **\<\|--** Waterschap
+    _BestuurlijkGebied <|-- Gemeente
 
-    \_BestuurlijkGebied **\<\|--** Veiligheidsregio
+    _BestuurlijkGebied <|-- Waterschap
 
-    Rijk **\*--** RijksgebiedOpLand**:** isSamengesteldUit
+    _BestuurlijkGebied <|-- Veiligheidsregio
 
-    Rijk **\*--** MaritiemeZoneOpZee**:** isSamengesteldUit
+    Rijk *-- RijksgebiedOpLand: isSamengesteldUit
 
-    Rijk **\<--** Provincie**:** ligtIn
+    Rijk *-- MaritiemeZone: isSamengesteldUit
 
-    Provincie **\<--** Gemeente**:** ligtIn
+    Rijk <-- Provincie: ligtIn
 
-    Veiligheidsregio **\*--** Gemeente**:** isSamengesteldUit
+    Provincie <-- Gemeente: ligtIn
 
-    MaritiemeZoneOpZee **..** TypeMaritiemeZone
+    Veiligheidsregio *-- Gemeente: isSamengesteldUit
 
-    TypeMaritiemeZone**: +**economische exclusieve zone
+    MaritiemeZone .. TypeMaritiemeZone
 
-    TypeMaritiemeZone**: +**kustlijn
+    TypeMaritiemeZone: +economische exclusieve zone
 
-    \_BestuurlijkGebied **..** Status
+    TypeMaritiemeZone: +kustlijn
 
-    Status**: +**ontwerp
+    _BestuurlijkGebied .. Status
 
-    Status**: +**aangewezen
+    Status: +ontwerp
 
-    Status**: +**ingetrokken    
+    Status: +aangewezen
 
-    \_BestuurlijkGebied **..** TijdlijnGeldigheid
+    Status: +ingetrokken    
 
-    **class** TijdlijnGeldigheid **{**
+    _BestuurlijkGebied .. TijdlijnGeldigheid
 
-        **+** beginGeldigheid**:** tijdstip
+    class TijdlijnGeldigheid {
 
-        **+** eindGeldigheid**:** tijdstip
+        + beginGeldigheid: tijdstip
 
-    **}**
+        + eindGeldigheid: tijdstip
 
-    **class** \_BestuurlijkGebied **{**
+    }
 
-        **+**identificatie**:** id
+    class _BestuurlijkGebied {
 
-        **+**bronhouder**:** code
+        +identificatie: id
 
-        **+**status**:** Status
+        +bronhouder: code
 
-        **+**geldigheid**:** TijdlijnGeldigheid
+        +status: Status
 
-        **+**naam**:** string
+        +geldigheid: TijdlijnGeldigheid
 
-    **}**
+        +naam: string
 
-    **class** Rijk **{**
+    }
 
-        **+**geometrie**:** multigeometrie
+    class Rijk {
 
-    **}**
+        +geometrie: multigeometrie
+
+    }
 
     Provincie
 
-    **class** RijksgebiedOpLand **{**
+    class RijksgebiedOpLand {
 
-        **+**geometrie**:** vlak
+        +geometrie: vlak
 
-    **}**
+    }
 
-    **class** MaritiemeZoneOpZee **{**
+    class MaritiemeZone {
 
-        **+**type**:** TypeMaritiemeZone
+        +type: TypeMaritiemeZone
 
-        **+**geometrie**:** vlak
+        +geometrie: vlak
 
-    **}**
+    }
 
-    **class** Veiligheidsregio **{**
+    class Veiligheidsregio {
 
-        **+**code**:** Veiligheidsregiocode    
+        +code: Veiligheidsregiocode    
 
-    **}**
+    }
 
-    **class** Waterschap **{**
+    class Waterschap {
 
-        **+**code**:** Waterschapscode
+        +code: Waterschapscode
 
-        geenGaten**()**
+        geenGaten()
 
-        geenOverlap**()**
+        geenOverlap()
 
-    **}**
+    }
 
-    **class** Provincie **{**
+    class Provincie {
 
-        **+**code**:** Provinciecode
+        +code: Provinciecode
 
-        geenGaten**()**
+        geenGaten()
 
-        geenOverlap**()**
+        geenOverlap()
 
-    **}**
+    }
 
-    **class** Gemeente **{**
+    class Gemeente {
 
-        **+**code**:** Gemeentecode
+        +code: Gemeentecode
 
-        geenGaten**()**
+        geenGaten()
 
-        geenOverlap**()**
+        geenOverlap()
 
-    **}**
+    }
+
+</div>
