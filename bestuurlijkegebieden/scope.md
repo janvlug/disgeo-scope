@@ -485,64 +485,64 @@ Conceptuele schets
 
 <div class="mermaid">
 classDiagram
-    _BestuurlijkGebied <|-- Rijk
-    _BestuurlijkGebied <|-- RijksgebiedOpLand
-    _BestuurlijkGebied <|-- MaritiemeZone
-    _BestuurlijkGebied <|-- Provincie
-    _BestuurlijkGebied <|-- Gemeente
-    _BestuurlijkGebied <|-- Waterschap
-    _BestuurlijkGebied <|-- Veiligheidsregio
-    Rijk *-- RijksgebiedOpLand: isSamengesteldUit
-    Rijk *-- MaritiemeZone: isSamengesteldUit
-    Rijk <-- Provincie: ligtIn
-    Provincie <-- Gemeente: ligtIn
-    Veiligheidsregio *-- Gemeente: isSamengesteldUit
-    MaritiemeZone .. TypeMaritiemeZone
-    TypeMaritiemeZone: +Nederlandse territoriale zee 
-    TypeMaritiemeZone: +Nederlandse aansluitende zone
-    TypeMaritiemeZone: +Nederlandse exclusieve economische zone
-    TypeMaritiemeZone: +Nederlandse continentaal plat
-    class _BestuurlijkGebied {
-        +identificatie: id
-        +bronhouder: code
-        +status: Status
-        +geldigheid: TijdlijnGeldigheid
-        +naam: string
-    }
-    class Rijk {
-        +geometrie: multigeometrie
-    }
-    class RijksgebiedOpLand {
-        +geometrie: vlak
-    }
-    class MaritiemeZone {
-        +type: TypeMaritiemeZone
-        +geometrie: vlak
-    }
-    class Veiligheidsregio {
-        +code: Veiligheidsregiocode    
-    }
-    class Waterschap {
-        +code: Waterschapscode
-        geenGaten()
-        geenOverlap() 
-    }
-    class Provincie {
-        +code: Provinciecode
-        geenGaten()
-        geenOverlap() 
-    }
-    class Gemeente {
-        +code: Gemeentecode
-        geenGaten()
-        geenOverlap() 
-    }
+_BestuurlijkGebied <|-- Rijk
+_BestuurlijkGebied <|-- RijksgebiedOpLand
+_BestuurlijkGebied <|-- MaritiemeZone
+_BestuurlijkGebied <|-- Provincie
+_BestuurlijkGebied <|-- Gemeente
+_BestuurlijkGebied <|-- Waterschap
+_BestuurlijkGebied <|-- Veiligheidsregio
+Rijk *-- RijksgebiedOpLand: isSamengesteldUit
+Rijk *-- MaritiemeZone: isSamengesteldUit
+Rijk <-- Provincie: ligtIn
+Provincie <-- Gemeente: ligtIn
+Veiligheidsregio *-- Gemeente: isSamengesteldUit
+MaritiemeZone .. TypeMaritiemeZone
+TypeMaritiemeZone: +Nederlandse territoriale zee 
+TypeMaritiemeZone: +Nederlandse aansluitende zone
+TypeMaritiemeZone: +Nederlandse exclusieve economische zone
+TypeMaritiemeZone: +Nederlandse continentaal plat
+class _BestuurlijkGebied {
+    +identificatie: id
+    +bronhouder: code
+    +status: Status
+    +geldigheid: TijdlijnGeldigheid
+    +naam: string
+}
+class Rijk {
+    +geometrie: multigeometrie
+}
+class RijksgebiedOpLand {
+    +geometrie: vlak
+}
+class MaritiemeZone {
+    +type: TypeMaritiemeZone
+    +geometrie: vlak
+}
+class Veiligheidsregio {
+    +code: Veiligheidsregiocode    
+}
+class Waterschap {
+    +code: Waterschapscode
+    geenGaten()
+    geenOverlap() 
+}
+class Provincie {
+    +code: Provinciecode
+    geenGaten()
+    geenOverlap() 
+}
+class Gemeente {
+    +code: Gemeentecode
+    geenGaten()
+    geenOverlap() 
+}
 </div>
 
 *Voorbeeld conceptuele schets informatiemodel.*
-
-<div class="mermaid">
 16:21uur
+<div class="mermaid">
+
 classDiagram
 _BestuurlijkGebied .. Status
 Status: +ontwerp
