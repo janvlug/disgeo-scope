@@ -483,65 +483,66 @@ In de huidige situatie worden de gegevens als volgt ingewonnen:
 Conceptuele schets
 ------------------
 
-<div class="mermaid">
+<div id="d1" class="mermaid">
 classDiagram
-_BestuurlijkGebied <|-- Rijk
-_BestuurlijkGebied <|-- RijksgebiedOpLand
-_BestuurlijkGebied <|-- MaritiemeZone
-_BestuurlijkGebied <|-- Provincie
-_BestuurlijkGebied <|-- Gemeente
+_BestuurlijkGebied <|-- Rijk 
+_BestuurlijkGebied <|-- RijksgebiedOpLand 
+_BestuurlijkGebied <|-- MaritiemeZone 
+_BestuurlijkGebied <|-- Provincie 
+_BestuurlijkGebied <|-- Gemeente 
 _BestuurlijkGebied <|-- Waterschap
-_BestuurlijkGebied <|-- Veiligheidsregio
-Rijk *-- RijksgebiedOpLand: isSamengesteldUit
-Rijk *-- MaritiemeZone: isSamengesteldUit
-Rijk <-- Provincie: ligtIn
-Provincie <-- Gemeente: ligtIn
-Veiligheidsregio *-- Gemeente: isSamengesteldUit
-MaritiemeZone .. TypeMaritiemeZone
+_BestuurlijkGebied <|-- Veiligheidsregio 
+Rijk *-- RijksgebiedOpLand: isSamengesteldUit 
+Rijk *-- MaritiemeZone: isSamengesteldUit 
+Rijk <-- Provincie: ligtIn 
+Provincie <-- Gemeente: ligtIn 
+Veiligheidsregio *-- Gemeente: isSamengesteldUit 
+MaritiemeZone .. TypeMaritiemeZone 
 TypeMaritiemeZone: +Nederlandse territoriale zee 
-TypeMaritiemeZone: +Nederlandse aansluitende zone
-TypeMaritiemeZone: +Nederlandse exclusieve economische zone
-TypeMaritiemeZone: +Nederlandse continentaal plat
-class _BestuurlijkGebied {
-    +identificatie: id
-    +bronhouder: code
-    +status: Status
-    +geldigheid: TijdlijnGeldigheid
-    +naam: string
-}
-class Rijk {
-    +geometrie: multigeometrie
-}
-class RijksgebiedOpLand {
-    +geometrie: vlak
-}
-class MaritiemeZone {
-    +type: TypeMaritiemeZone
-    +geometrie: vlak
-}
-class Veiligheidsregio {
-    +code: Veiligheidsregiocode    
-}
-class Waterschap {
-    +code: Waterschapscode
-    geenGaten()
+TypeMaritiemeZone: +Nederlandse aansluitende zone 
+TypeMaritiemeZone: +Nederlandse exclusieve economische zone 
+TypeMaritiemeZone: +Nederlandse continentaal plat 
+
+class _BestuurlijkGebied { 
+    +identificatie: id 
+    +bronhouder: code 
+    +status: Status 
+    +geldigheid: TijdlijnGeldigheid 
+    +naam: string 
+} 
+class Rijk { 
+    +geometrie: multigeometrie 
+ } 
+class RijksgebiedOpLand { 
+    +geometrie: vlak 
+} 
+class MaritiemeZone { 
+    +type: TypeMaritiemeZone 
+    +geometrie: vlak 
+} 
+class Veiligheidsregio { 
+    +code: Veiligheidsregiocode
+} 
+class Waterschap { 
+    +code: Waterschapscode 
+    geenGaten() 
+    geenOverlap()
+} 
+class Provincie { 
+    +code: Provinciecode 
+    geenGaten() 
     geenOverlap() 
-}
-class Provincie {
-    +code: Provinciecode
-    geenGaten()
-    geenOverlap() 
-}
-class Gemeente {
-    +code: Gemeentecode
-    geenGaten()
+} 
+class Gemeente { 
+    +code: Gemeentecode 
+    geenGaten() 
     geenOverlap() 
 }
 </div>
 
 *Voorbeeld conceptuele schets informatiemodel.*
 16:21uur
-<div class="mermaid">
+<div id="d2" class="mermaid">
 
 classDiagram
 _BestuurlijkGebied .. Status
