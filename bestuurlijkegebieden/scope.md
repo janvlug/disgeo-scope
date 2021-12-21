@@ -543,20 +543,20 @@ classDiagram
 
 <div class="mermaid"
 classDiagram
-    _BestuurlijkGebied .. Status
-    Status: +ontwerp
-    Status: +aangewezen 
-    Status: +ingetrokken    
-    _BestuurlijkGebied .. TijdlijnGeldigheid
-     class _BestuurlijkGebied {
-        +identificatie: id
-        +bronhouder: code
-        +status: Status
-        +geldigheid: TijdlijnGeldigheid
-        +naam: string
-    }
-    class TijdlijnGeldigheid {
-        + beginGeldigheid: tijdstip
-        + eindGeldigheid: tijdstip
-    }
+_BestuurlijkGebied .. Status
+Status: +ontwerp
+Status: +aangewezen 
+Status: +ingetrokken    
+_BestuurlijkGebied .. TijdlijnGeldigheid
+ class _BestuurlijkGebied {
+    +identificatie: id
+    +bronhouder: code
+    +status: Status
+    +geldigheid: TijdlijnGeldigheid
+    +naam: string
+}
+class TijdlijnGeldigheid {
+    + beginGeldigheid: tijdstip
+    + eindGeldigheid: tijdstip
+}
 </div>
