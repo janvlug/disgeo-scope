@@ -541,7 +541,8 @@ class Gemeente {
 </div>
 
 *Voorbeeld conceptuele schets informatiemodel.*
-16:21uur
+
+
 <div id="d2" class="mermaid">
 
 classDiagram
