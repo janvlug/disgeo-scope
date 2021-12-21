@@ -480,8 +480,8 @@ In de huidige situatie worden de gegevens als volgt ingewonnen:
 
 -   Gegevens over Veiligheidsregio worden ingewonnen via wet- en regelgeving.
 
-Inhoud (Model)
---------------
+Conceptuele schets
+------------------
 
 <div class="mermaid">
 classDiagram
