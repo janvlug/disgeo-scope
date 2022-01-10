@@ -21,8 +21,8 @@ var respecConfig = {
     },
   ],
   //shortName: "shortname",
-  pubDomain: "DSGO",
-  github: "https://github.com/Geonovum/DSGO",
+  pubDomain: "disgeo-scope",
+  github: "https://github.com/Geonovum/disgeo-scope",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
