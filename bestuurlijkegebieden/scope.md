@@ -4,9 +4,9 @@ Beschrijving van bestuurlijke gebieden
 Vanuit de doorontwikkeling van de geobasisregistraties in samenhang (DiS-Geo) is
 de behoefte ontstaan om diverse bestuurlijke gebieden beter bruikbaar te maken
 binnen de context van een samenhangend stelsel van geo-basisgegevens.
-Voorbeelden van bestuurlijke gebieden, ookwel openbare lichaam, zijn Rijk,
+Voorbeelden van bestuurlijke gebieden zijn gebieden die behoren bij de openbare lichamen Rijk,
 gemeenten, provincies, waterschappen en samenwerkingsverbanden zoals
-veiligheidsregio’s.
+veiligheidsregio’s. Het gaat hier dus *niet* om de openbare lichamen zelf maar alléén om het gebied waarbinnen het openbare lichaam haar bestuurlijke verantwoordelijkheid uitoefent. 
 
 Daarnaast beschouwen we ook de grenzen op zee die de maritieme zones ruimtelijk
 afbakenen ook als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
@@ -104,13 +104,13 @@ Stakeholders
 ### Bronhouders
 
 Partijen die grenzen van bestuurlijke gebieden **inwinnen en/of bijhouden**
-onder meer:
+zijn onder meer:
 
 -   Kadaster
 
 -   Ministerie Defensie
 
-Partijen die gegevens van bestuurlijke gebieden **gebruiken** onder meer:
+Partijen die gegevens van bestuurlijke gebieden **gebruiken** zijn onder meer:
 
 -   Alle partijen die behoefte hebben aan relatering aan locatie en gebied van
     bevoegd gezagen, werkingsgebieden en beheergebieden, onder meer
