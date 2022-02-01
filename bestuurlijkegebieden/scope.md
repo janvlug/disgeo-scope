@@ -6,7 +6,7 @@ de behoefte ontstaan om diverse bestuurlijke gebieden beter bruikbaar te maken
 binnen de context van een samenhangend stelsel van geo-basisgegevens.
 Voorbeelden van bestuurlijke gebieden zijn gebieden die behoren bij de openbare lichamen Rijk,
 gemeenten, provincies, waterschappen en samenwerkingsverbanden zoals
-veiligheidsregio’s. Het gaat hier dus *niet* om de openbare lichamen zelf maar alléén om het gebied waarbinnen het openbare lichaam haar bestuurlijke verantwoordelijkheid uitoefent. 
+veiligheidsregio’s. Het gaat hier dus *niet* om de openbare lichamen zelf maar alléén om het gebied waar binnen het openbare lichaam haar bestuurlijke verantwoordelijkheid uitoefent. 
 
 Daarnaast beschouwen we ook de grenzen op zee die de maritieme zones ruimtelijk
 afbakenen ook als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
@@ -77,7 +77,7 @@ gemeenten, waterschappen en veiligheidsregio’s worden als volgt geproduceerd.
 
 ### Veiligheidsregio
 
--   De grenzen worden vastgesteld in de
+-   De grenzen worden vastgesteld in de   **NOG AANVULLEN !!**
 
 Bestuurlijke gebieden op zee
 ----------------------------
@@ -108,7 +108,7 @@ zijn onder meer:
 
 -   Kadaster
 
--   Ministerie Defensie
+-   Ministerie van DefeNSIE (Dienst der Hydrografie)
 
 Partijen die gegevens van bestuurlijke gebieden **gebruiken** zijn onder meer:
 
@@ -129,7 +129,7 @@ gegevens over bestuurlijke gebieden houden:
 
 -   Geonovum
 
--   Ministerie van Binnenlandse Zaken
+-   Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
 
 Bestaande softwaresystemen
 ==========================
@@ -360,8 +360,7 @@ Aanpak
 
 Er wordt gekozen voor een AGILE-aanpak. We werken de bestuurlijke gebieden op
 basis van het document [‘DiS-Geo
-EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ uit in een informatiemodel
-en een registratievoorziening. Hieruit kunnen vragen over onder meer processen,
+EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ en dit scopedocument uit in een informatiemodel en een registratievoorziening. Hieruit kunnen vragen over onder meer processen,
 bronhouderschap, brondocumenten en andere juridische aspecten naar voren komen
 die in een later stadium worden uitgewerkt.
 
@@ -376,17 +375,11 @@ te schrappen, bijvoorbeeld Gemeente uit BRK en/of Waterschap uit IMGeo.
 Inhoud
 ------
 
-De volgende bestuurlijke gebieden zijn in scope: Rijk, Provincie, Gemeente,
+De volgende bestuurlijke gebieden zijn in scope: De gebieden van Rijk, Provincie, Gemeente,
 Waterschap, Veiligheidsregio, en de Maritieme zones bestaande uit de Nederlandse
 territoriale zee, Nederlandse aansluitende zone, Nederlandse exclusieve
 economische zone, Nederlandse continentaal plat.
 
-De overage registratieve gebieden/objecten die in document [‘DiS-Geo
-EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ onderkend worden, zijnde
-Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats
-vallen (nu) buiten de scope van het informatiemodel bestuurlijke gebieden.
-Relaties met andere objecten (bijv. Woonplaats, Wijk) kunnen wel worden
-benoemd/geschetst, maar worden niet nader uitgewerkt in het informatiemodel.
 
 In het document [‘DiS-Geo EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’
 wordt object Rijk onderkend als het rijksgebied op land. Aandachtspunt bij de
@@ -400,7 +393,7 @@ Dekking
 De regels voor opname van bestuurlijke gebieden worden afgebakend tot dekking
 voor het Nederlands grondgebied zonder overzeese gebieden. Bij de uitwerking in
 het informatiemodel en voorzieningen dient rekening te worden gehouden met
-uitbreiding van eventuele exclaves (Baarle-Hertog) en/of BES eilanden op later
+uitbreiding van eventuele exclaves (Baarle-Hertog) en/of BES eilanden op een later
 moment.
 
 Uitbreiding
@@ -409,6 +402,14 @@ Uitbreiding
 In de modellering moet rekening worden gehouden dat het model -naast
 ondersteuning van veiligheidsregio’s- ook uitgebreid kan worden met andere
 openbare lichamen zoals gemeentelijke samenwerkingsverbanden.
+
+De overage registratieve ruimten die in document [‘DiS-Geo
+EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ onderkend worden, zijnde
+Woonplaats, Wijk, Buurt, Openbare Ruimte, Nummeraanduiding, en Benoemde Plaats
+vallen (nu) buiten de scope van het informatiemodel bestuurlijke gebieden.
+Relaties met andere objecten (bijv. Woonplaats, Wijk) kunnen wel worden
+benoemd/geschetst, maar worden niet nader uitgewerkt in het informatiemodel.
+Het model moet zo opgezet worden dat het in een later stadium hierop uitbreidbaar is.
 
 Levensloop
 ----------
@@ -444,7 +445,7 @@ van) de geometrie.
 Aanleveren vs. afleiden
 -----------------------
 
-De gegevens over grenzen van rijk, provincie, en gemeente worden in de bestaande
+De gegevens over grenzen van Rijk, provincie, en gemeente worden in de bestaande
 situatie afgeleid uit de percelen in de BRK. Het is op dit moment onduidelijk of
 deze grenzen/gebieden afgeleide gegevens blijven, of dat er bronhouders (bijv.
 gemeenten) worden aangewezen die deze gegevens zelf aanleveren aan de
