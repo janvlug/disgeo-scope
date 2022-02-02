@@ -19,7 +19,7 @@ Basisregistratie Kadaster (BRK) en Basisregistratie Grootschalige Topografie
 identificaties en eigenschappen.
 
 In het document [‘DiS-Geo EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ is
-gedefineerd welke wensen en eisen er zijn ten aanzien van inhoud van
+gedefinieerd welke wensen en eisen er zijn ten aanzien van inhoud van
 bestuurlijke gebieden in de geobasisregistraties. Hierin worden onder meer
 unieke aanduiding, naamgeving en relaties tot andere bestuurlijke gebieden
 onderkend.
@@ -68,7 +68,7 @@ gemeenten, waterschappen en veiligheidsregio’s worden als volgt geproduceerd.
     waterschappen als verkiezingsgebieden voor de waterschapsverkiezingen) zijn
     wel (niet-authentiek) vlakdekkend vastgelegd door de afzonderlijke
     waterschappen en eenmalige verzameld, samengevoegd en als losse dataset
-    “Waterschapsgrenzen” ontsloten (o.a. via PDOK) door het waterschapshuis/unie
+    “Waterschapsgrenzen” ontsloten (o.a. via PDOK) door het Waterschapshuis/ Unie
     van waterschappen. Tevens ontsluiten enkele provincies losse datasets met
     daarin de grenzen van de binnen hun provincie gelegen waterschappen.
 
@@ -108,7 +108,7 @@ zijn onder meer:
 
 -   Kadaster
 
--   Ministerie van DefeNSIE (Dienst der Hydrografie)
+-   Ministerie van Defensie (Dienst der Hydrografie)
 
 Partijen die gegevens van bestuurlijke gebieden **gebruiken** zijn onder meer:
 
@@ -180,7 +180,7 @@ De [Bestuurlijke Grenzen
 API](https://brk.basisregistraties.overheid.nl/bestuurlijke-grenzen-api) van het
 Kadaster combineert de Rijksgrenzen (op land), provinciegrenzen en
 gemeentegrenzen uit de BRK met de grenzen op zee van de Dienst der Hydrografie
-en de waterschapsgrenzen van het waterschapshuis/unie van waterschappen.
+en de waterschapsgrenzen van het Waterschapshuis/ Unie van waterschappen.
 
 Bestaande registraties
 ======================
@@ -463,7 +463,7 @@ Gegevens van bestuurlijke gebieden met status ‘Aanwezen’ of ‘Ingetrokken�
 niet worden gewijzigd (met uitzondering van de status). Deze objecten mogen wel
 worden gecorrigeerd. Voor correctie wordt het oude object gewijzigd naar status
 ‘Ten onrechte opgevoerd’ met beginGeldigheid gelijk en nieuwe
-tijdstipregsitratie. Er ontstaat een nieuwe versie in de registratie. Een nieuw
+tijdstipregistratie. Er ontstaat een nieuwe versie in de registratie. Een nieuw
 object met status ‘Aangewezen’ wordt opgevoerd met zelfde tijdstipregistratie
 
 Inwinning
