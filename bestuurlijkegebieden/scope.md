@@ -9,7 +9,7 @@ gemeenten, provincies, waterschappen en samenwerkingsverbanden zoals
 veiligheidsregio’s. Het gaat hier dus *niet* om de openbare lichamen zelf maar alléén om het gebied waar binnen het openbare lichaam haar bestuurlijke verantwoordelijkheid uitoefent. 
 
 Daarnaast beschouwen we ook de grenzen op zee die de maritieme zones ruimtelijk
-afbakenen ook als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
+afbakenen als onderdeel van de bestuurlijke gebieden. Hieronder vallen de
 territoriale zee, aansluitende en economische zone en het continentaal plat.
 
 Gegevens over bestuurlijke gebieden kunnen in het huidige stelsel van
@@ -26,9 +26,9 @@ onderkend.
 
 Gebruikers van deze gegevens zijn gebaat bij meer consistentie en samenhang in
 de gegevens over en ontsluiting van bestuurlijke gebieden. Beoogde gebruikers
-van bestuurlijke gebieden zijn onder meer vergunningverlening in het kader van
+van bestuurlijke gebieden zijn onder meer vergunningverleners in het kader van
 de Omgevingswet, Centraal Bureau voor de Statistiek (CBS), en
-veiligheidheidsdiensten.
+veiligheidsdiensten.
 
 Het (keten)werkproces waarin bestuurlijke gebieden worden geproduceerd
 ======================================================================
@@ -77,7 +77,7 @@ gemeenten, waterschappen en veiligheidsregio’s worden als volgt geproduceerd.
 
 ### Veiligheidsregio
 
--   De grenzen worden vastgesteld in de   **NOG AANVULLEN !!**
+-   De grenzen worden vastgesteld met een Algemene maatregel van Bestuur op basis van de Wet op de Veiligheidsregio’s.
 
 Bestuurlijke gebieden op zee
 ----------------------------
@@ -205,14 +205,14 @@ De [Basisregistratie Grootschalige Topografie
 biedt ruimte voor de vrijwillige vastlegging van waterschapsgrenzen. Van die
 mogelijkheid wordt echter vrijwel geen gebruik gemaakt (0 in november 2019).
 
-Basisregistatie Topografie (BRT)
+Basisregistratie Topografie (BRT)
 --------------------------------
 
-De [Basisregistatie Topografie
+De [Basisregistratie Topografie
 (BRT)](https://www.geobasisregistraties.nl/basisregistraties/topografie) bevat
 de dataset “TopGrenzen” met de gegeneraliseerde gemeentegrenzen,
 provinciegrenzen en de landsgrens (behalve die op zee). De grenzen worden
-overgenomen uit de BRK en voor de toepasselijke kaartschaal gegeneraliseerd.
+overgenomen uit de BRK en voor de toepasselijke kaartschaal met de onderliggende topografie als basis gegeneraliseerd.
 
 INSPIRE Administratieve eenheden
 --------------------------------
@@ -265,9 +265,9 @@ gemeenschappelijke regelingen tussen de openbare lichamen.
 Grondwet](https://wetten.overheid.nl/BWBR0001840/2018-12-21#Hoofdstuk7)
 regelt dat provincies en gemeenten bij wet kunnen worden opgeheven of ingesteld.
 In de [wet ARHI](https://wetten.overheid.nl/BWBR0003718) worden de algemene
-regels voor herindeling vastgelegd. Voor elke splitsing, samenvoeging, en
-grotere grenswijziging is in principe een aparte wet of rijksbesluit nodig.
-Kleinere grenswijzigingen kunnen met een provinciaal besluit worden ingesteld.
+regels voor herindeling vastgelegd. Voor elke wijziging van de indeling (splitsing, samenvoeging, en
+grotere grenswijziging) is in principe een aparte wet of rijksbesluit nodig.
+Grenscorrecties (kleinere grenswijzigingen) kunnen met een provinciaal besluit worden ingesteld.
 
 Kadasterwet
 -----------
@@ -314,10 +314,8 @@ Provinciale verordeningen (waterschapsgrenzen)
 Wet op de veiligheidsregio’s
 ----------------------------
 
--   De wet op de veiligheidsregio’s regelt in bijlage 1 de toewijzing van
+-   De wet op de veiligheidsregio’s regelt in [de bijlage bij artikel 8](https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage) de toewijzing van
     gemeenten aan een Veiligheidsregio.
-    [Bijlage](https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage) bij
-    artikel 8 Wet op de Veiligheidsregio’s:
 
 Relevante Standaarden
 =====================
@@ -418,7 +416,7 @@ Elke bestuurlijk gebied krijgt een status, zijnde de fase van de levenscyclus.
 In afwijking van het document ‘DiS-Geo EMSO’ worden de volgende statussen
 gehanteerd voor een bestuurlijk gebied:
 
--   ontwerp,
+-   ontwerp
 
 -   aangewezen
 
@@ -429,14 +427,14 @@ gehanteerd voor een bestuurlijk gebied:
 Actualiteit
 -----------
 
-Een bestuurlijk gebied dient voor de inwerkingtreding beschikbaar zijn. Een
+Een bestuurlijk gebied dient voor de inwerkingtreding beschikbaar te zijn. Een
 voorlopige grens van een bestuurlijk gebied kan voor de inwerkingtreding worden
 aangeleverd.
 
 Geometrische onzekerheid 
 -------------------------
 
-Het model moet met de geometrische (on)zekerheid en (on)nauwkeurigheid van
+Het model moet met de juridische (en daarbij behorende geometrische) (on)zekerheid en (on)nauwkeurigheid van
 bestuurlijk gebieden kunnen omgaan. Over de grenzen op zee zijn
 onenigheden/geschillen tussen buurlanden. Het model moet deze onzekerheid kunnen
 beschrijven, bijvoorbeeld door het toevoegen van een status aan (de coördinaten
@@ -459,12 +457,14 @@ Wijzigen en corrigeren van gegevens
 Bestuurlijke gebieden met status ‘Ontwerp’ mogen worden gewijzigd. Er ontstaat
 een nieuw voorkomen van dit object.
 
-Gegevens van bestuurlijke gebieden met status ‘Aanwezen’ of ‘Ingetrokken’ mogen
+Gegevens van bestuurlijke gebieden met status ‘aangewezen’ of ‘ingetrokken’ mogen
 niet worden gewijzigd (met uitzondering van de status). Deze objecten mogen wel
 worden gecorrigeerd. Voor correctie wordt het oude object gewijzigd naar status
 ‘Ten onrechte opgevoerd’ met beginGeldigheid gelijk en nieuwe
 tijdstipregistratie. Er ontstaat een nieuwe versie in de registratie. Een nieuw
 object met status ‘Aangewezen’ wordt opgevoerd met zelfde tijdstipregistratie
+
+**Uitzoeken:  dus attribuutwaarden veranderen, maar ten onrechte opgevoerd heeft toch betrekking op het gehele object?**
 
 Inwinning
 ---------
@@ -474,7 +474,7 @@ In de huidige situatie worden de gegevens als volgt ingewonnen:
 -   Gegevens van Rijk, provincies en gemeenten worden afgeleid uit kadastrale
     percelen.
 
--   Gegevens over Maritieme zones worden ingewonnen uit international verdragen.
+-   Gegevens over Maritieme zones worden ingewonnen uit internationale verdragen.
 
 -   Gegevens over Waterschappen worden ingewonnen via wet- en regelgeving /
     besluiten.
