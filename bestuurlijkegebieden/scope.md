@@ -277,6 +277,7 @@ inhoud van de basisregistraties Kadaster (BRK) en Topografie (BRT) geregeld door
 verwijzing in artikel 48 (BRK) en artikel 98a derde lid (BRT) naar een
 vast-te-stellen gegevenscatalogus. In de Kadasterwet worden daarmee de grenzen
 van rijk (op land), provincie en gemeente juridisch verankerd.
+**aanvullen met wet BGT voor vrijwillige waterschapsgrenzen?**
 
 Internationale verdragen
 ------------------------
@@ -316,6 +317,11 @@ Wet op de veiligheidsregio’s
 
 -   De wet op de veiligheidsregio’s regelt in [de bijlage bij artikel 8](https://wetten.overheid.nl/BWBR0027466/2021-07-01#Bijlage) de toewijzing van
     gemeenten aan een Veiligheidsregio.
+	
+Omgevingswet
+------------
+De omgevingswet noemt de bestuurlijke grenzen niet expliciet, maar bij de uitvoering van de wet zijn ze van groot belang. De landelijke voorziening(voor omgevingsplannen) werkt niet wanneer de bestuurlijke grenzen API niet beschikbaar is.
+
 
 Relevante Standaarden
 =====================
@@ -355,8 +361,7 @@ behoeve van de informatiemodellering voor bestuurlijke gebieden.
 
 Aanpak
 ------
-
-Er wordt gekozen voor een AGILE-aanpak. We werken de bestuurlijke gebieden op
+Dis-Geo wordt ontwikkeld in een scaled agile framework (SAFe) aanpak. Dat wil zeggen meerdere AGILE werkende teams produren samen het geheel. Standaarden worden dus ook op AGILE wijze in sprints gemaakt. We werken de bestuurlijke gebieden op
 basis van het document [‘DiS-Geo
 EMSO](https://docs.geostandaarden.nl/disgeo/emso/)’ en dit scopedocument uit in een informatiemodel en een registratievoorziening. Hieruit kunnen vragen over onder meer processen,
 bronhouderschap, brondocumenten en andere juridische aspecten naar voren komen
@@ -365,10 +370,15 @@ die in een later stadium worden uitgewerkt.
 Voor nu wordt er voor gekozen om bestuurlijke gebieden in een apart klein
 informatiemodel te modelleren. Op later moment kan worden bekeken of dit
 informatiemodel wordt geïntegreerd in bijvoorbeeld BRK of BGT.
+In eerste instantie worden de resultaten in de Bestuurlijke gebieden API van het Kadaster verwerkt. Geonovum werkt in sprints aan de standaard waarbij we ons sprintritme afstemmen op dat van het Kadaster bestuurlijke gebieden API team. We maken meerdere iteraties van de standaard, die minimaal door de bestuurlijke gebieden API wordt geïmplementeerd. Bij voorkeur worden deze in de keten getest door zowel bronhouders als afnemers.
+
+Uitgangspunt is dat het informatiemodel moet kunnen werken op basis van nu geldige wettelijke context van bronregistraties (BRK, BRT, BGT,...). Alle uitbreidingen daarop in het informatiemodel moeten optioneel zijn. 
+We gaan er vanuit dat de huidige Informatiemodellen van BRK, BGT en BRT niet op korte termijn veranderen.
 
 N.B. Bij implementatie c.q. formele ingangsdatum van het ‘informatiemodel
 bestuurlijke gebieden’ dienen andere informatiemodellen de bestuurlijke gebieden
 te schrappen, bijvoorbeeld Gemeente uit BRK en/of Waterschap uit IMGeo.
+**is dit te rijmen met uitgangspunt over wettelijke kaders?**
 
 Inhoud
 ------
