@@ -377,10 +377,14 @@ Geonovum levert de volgende producten op:
 * Conceptueel informatiemodel. Een implementatie onafhankelijk informatiemodel waarin in UML de samenhang van de begrippen gemodelleerd is. Inclusief tekstuele toelichting gepubliceeerd in ReSpec formaat op docs.geostandaarden.nl
 * Logisch informatiemodel. Een UML model afgeleid van het conceptuele UML model waarin implementatiekeuzes zijn gemaakt. Dit wordt gebruikt voor afleiden van technische specificaties
 * Technische specificaties: Een API beschrijving in OAS 3 formaat in lijn met de REST API Design Rules welke de interface van de API definieerd. Daarnaast een JSON schema bestand waarmee de uitgewisselde informatie in JSON formaat gevalideerd kan worden. Waar nodig uitgebreid met aanvullende tekstuele documentatie.
-* Scope document: Dit document vastgesteld door de governance van DiS Geo.
+* Scope document: Dit document zelf.
 * Geleerde lessen: Aan de hand van een evaluatie moment worden geleerde lessen van het project gedocumenteerd en waar van toepassing worden change requests aan bestaande registraties geformuleerd.
 
+Het model van begrippen, conceptueel informatiemodel en scopedocument zullen door de governance van DiS Geo worden vastgesteld. Het scopedocument aan het begin van het project en de modellen aan het einde van het project.
+
 Aanspreek punt voor architectuur vragen die naar boven komen in het standaardisatie project is de architect van het Kadaster aangezien Kadaster de beoogd is als verantwoordelijk voor het realiseren van de standaard in een landelijke voorziening.
+
+
 
 Uitgangspunt is dat het informatiemodel moet kunnen werken op basis van nu geldige wettelijke context van bronregistraties (BRK, BRT, BGT,...). Alle uitbreidingen daarop in het informatiemodel moeten optioneel zijn. 
 We gaan er vanuit dat de huidige Informatiemodellen van BRK, BGT en BRT niet op korte termijn veranderen.
