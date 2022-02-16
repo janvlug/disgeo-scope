@@ -110,6 +110,7 @@ zijn onder meer:
 
 -   Ministerie van Defensie (Dienst der Hydrografie)
 
+### Afnemers
 Partijen die gegevens van bestuurlijke gebieden **gebruiken** zijn onder meer:
 
 -   Alle partijen die behoefte hebben aan relatering aan locatie en gebied van
@@ -122,8 +123,9 @@ Partijen die gegevens van bestuurlijke gebieden **gebruiken** zijn onder meer:
 
 -   Centraal Bureau Statistiek (CBS)
 
+### Beheerders 
 Partijen die de **regelgeving, standaarden, of centrale voorzieningen** voor
-gegevens over bestuurlijke gebieden houden:
+gegevens over bestuurlijke gebieden beheren:
 
 -   Kadaster / PDOK
 
