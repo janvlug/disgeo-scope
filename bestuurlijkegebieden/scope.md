@@ -382,7 +382,7 @@ Geonovum levert de volgende producten op:
 
 Het model van begrippen, conceptueel informatiemodel en scopedocument zullen door de governance van DiS Geo worden vastgesteld. Het scopedocument aan het begin van het project en de modellen aan het einde van het project.
 
-Aanspreek punt voor architectuur vragen die naar boven komen in het standaardisatie project is de architect van het Kadaster aangezien Kadaster de beoogd is als verantwoordelijk voor het realiseren van de standaard in een landelijke voorziening.
+Aanspreek punt voor architectuur vragen die naar boven komen in het standaardisatie project is de architect van het Kadaster. Dit aangezien Kadaster beoogd is als verantwoordelijk voor het realiseren van de standaard in een landelijke voorziening.
 
 
 
