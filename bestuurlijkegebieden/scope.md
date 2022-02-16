@@ -351,7 +351,7 @@ Relevante documentatie
 ======================
 
 Zie voor relevante documentatie de opsomming van wet- en regelgeving in
-paragraaf
+paragraaf wettelijk kader.
 
 Inhoudelijke keuzes op hoofdlijnen
 ==================================
@@ -372,13 +372,23 @@ informatiemodel te modelleren. Op later moment kan worden bekeken of dit
 informatiemodel wordt geïntegreerd in bijvoorbeeld BRK of BGT.
 In eerste instantie worden de resultaten in de Bestuurlijke gebieden API van het Kadaster verwerkt. Geonovum werkt in sprints aan de standaard waarbij we ons sprintritme afstemmen op dat van het Kadaster bestuurlijke gebieden API team. We maken meerdere iteraties van de standaard, die minimaal door de bestuurlijke gebieden API wordt geïmplementeerd. Bij voorkeur worden deze in de keten getest door zowel bronhouders als afnemers.
 
+Geonovum levert de volgende producten op:
+* Model van  begrippen, dat wil zeggen relevante begrippen en hun definities. In eerste instantie gepubliceerd op begrippen.geostandaarden.nl. Bij formele in productiename van bestuurlijke gebieden verhuist dit model van begrippen naar definities.geostandaarden.nl.
+* Conceptueel informatiemodel. Een implementatie onafhankelijk informatiemodel waarin in UML de samenhang van de begrippen gemodelleerd is. Inclusief tekstuele toelichting gepubliceeerd in ReSpec formaat op docs.geostandaarden.nl
+* Logisch informatiemodel. Een UML model afgeleid van het conceptuele UML model waarin implementatiekeuzes zijn gemaakt. Dit wordt gebruikt voor afleiden van technische specificaties
+* Technische specificaties: Een API beschrijving in OAS 3 formaat in lijn met de REST API Design Rules welke de interface van de API definieerd. Daarnaast een JSON schema bestand waarmee de uitgewisselde informatie in JSON formaat gevalideerd kan worden. Waar nodig uitgebreid met aanvullende tekstuele documentatie.
+* Scope document: Dit document vastgesteld door de governance van DiS Geo.
+* Geleerde lessen: Aan de hand van een evaluatie moment worden geleerde lessen van het project gedocumenteerd en waar van toepassing worden change requests aan bestaande registraties geformuleerd.
+
+Aanspreek punt voor architectuur vragen die naar boven komen in het standaardisatie project is de architect van het Kadaster aangezien Kadaster de beoogd is als verantwoordelijk voor het realiseren van de standaard in een landelijke voorziening.
+
 Uitgangspunt is dat het informatiemodel moet kunnen werken op basis van nu geldige wettelijke context van bronregistraties (BRK, BRT, BGT,...). Alle uitbreidingen daarop in het informatiemodel moeten optioneel zijn. 
 We gaan er vanuit dat de huidige Informatiemodellen van BRK, BGT en BRT niet op korte termijn veranderen.
 
 N.B. Bij implementatie c.q. formele ingangsdatum van het ‘informatiemodel
 bestuurlijke gebieden’ dienen andere informatiemodellen de bestuurlijke gebieden
 te schrappen, bijvoorbeeld Gemeente uit BRK en/of Waterschap uit IMGeo.
-**is dit te rijmen met uitgangspunt over wettelijke kaders?**
+**is dit te rijmen met uitgangspunt over wettelijke kaders? voorstel is om deze allinea te schrapen of dit punt buiten scope van het huidige proect te zetten**
 
 Inhoud
 ------
