@@ -509,7 +509,13 @@ In de huidige situatie worden de gegevens als volgt ingewonnen:
 
 Conceptuele schets
 ------------------
-
+ <html>
+    <body>
+ <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+		
 <div id="d1" class="mermaid">
 classDiagram
 _BestuurlijkGebied <|-- Rijk 
@@ -590,3 +596,5 @@ class TijdlijnGeldigheid {
     + eindGeldigheid: tijdstip
 }
 </div>
+ </body>
+</html>
