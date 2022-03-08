@@ -555,9 +555,9 @@ Conceptuele schets
 <html>
 <body>
 <div>
-<figure id='image003'>
-          <img src="./media/schets1.png" alt="schets_informatiemodel" width="600"/>
-          <figcaption>Voorbeeld conceptuele schets informatiemodel.</figcaption>
+<figure id='image001'>
+          <img src="./media/6b80caa78f8edf78e617c337caabc132.png" alt="schets_informatiemodel" width="600"/>
+          <figcaption>Voorbeeld conceptuele schets informatiemodel</figcaption>
 </figure>
 </div>
  </body>
