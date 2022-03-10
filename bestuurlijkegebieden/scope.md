@@ -493,7 +493,27 @@ aangeleverd.
 
 Kwaliteit
 -----------
-Tijdreizen ... **input volgt vanuit ICTU/BZK/Kadaster**
+De NORA is leidend voor het bepalen van kwaliteitsaspecten. De nora de volgende kwaliteitsdimensies:
+
+|                   |           |
+|-------------------|-----------|
+|Kwaliteitsdimensie	| Definitie |
+| Juistheid	| De mate waarin gegevens de echte waarde goed weergeven.|
+| Compleetheid |	De mate waarin gegevens aanwezig zijn.|
+| Validiteit |	De mate waarin gegevens voldoen aan de verwachte structuur en opslagvorm.|
+| Consistentie	| De mate waarin gegevens vrij van tegenspraak zijn en samenhang vertonen met andere gegevens |
+| Actualiteit | De mate waarin gegevens recent genoeg zijn.|
+| Precisie	| De mate waarin gegevens exact of onderscheidend genoeg zijn. |
+| Plausibiliteit | De mate waarin gegevens worden beschouwd als waar en geloofwaardig door gebruikers. |
+| Traceerbaarheid |	De mate waarin de totstandkoming en het gebruik van gegevens zijn vastgelegd. |
+| Begrijpelijkheid | De mate waarin gegevens eenvoudig gelezen en geïnterpreteerd kunnen worden door gebruikers. |
+
+Aan de hand daarvan worden voor bestuurlijke gebieden specifieke kwaliteitskriteria opgesteld. Hierbij wordt geozcht naar bestaande kwaliteitsnormen die gebruikt kunnen worden om invulling te geven aan de kwaliteitsdimensies van de NORA. 
+
+Zo wordt bijvoorbeeld aan de dimensie Precisie invulling gegeven met geometrische preciesie, de matie waarin iedere geometrie voldoet aan geomoetrische precisie regels. Dit gaat over onder meer de gridgrootte en aantal decimalen van coördinaten. Er wordt in de context van rasterdata ook wel gesproken over resolutie; het scheidend vermogen van een optisch apparaat.
+
+
+ **input volgt vanuit ICTU/BZK/Kadaster**
 
 Geometrische onzekerheid 
 -------------------------
