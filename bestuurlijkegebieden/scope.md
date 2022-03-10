@@ -495,9 +495,8 @@ Kwaliteit
 -----------
 De NORA is leidend voor het bepalen van kwaliteitsaspecten. De nora de volgende kwaliteitsdimensies:
 
-|                   |           |
-|-------------------|-----------|
-|Kwaliteitsdimensie	| Definitie |
+| Kwaliteitsdimensie  | Definitie              |
+| ------------------- | ---------------------- |
 | Juistheid	| De mate waarin gegevens de echte waarde goed weergeven.|
 | Compleetheid |	De mate waarin gegevens aanwezig zijn.|
 | Validiteit |	De mate waarin gegevens voldoen aan de verwachte structuur en opslagvorm.|
