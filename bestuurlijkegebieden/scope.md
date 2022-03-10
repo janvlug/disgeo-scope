@@ -512,8 +512,6 @@ Aan de hand daarvan worden voor bestuurlijke gebieden specifieke kwaliteitskrite
 Zo wordt bijvoorbeeld aan de dimensie Precisie invulling gegeven met geometrische preciesie, de matie waarin iedere geometrie voldoet aan geomoetrische precisie regels. Dit gaat over onder meer de gridgrootte en aantal decimalen van coördinaten. Er wordt in de context van rasterdata ook wel gesproken over resolutie; het scheidend vermogen van een optisch apparaat.
 
 
- **input volgt vanuit ICTU/BZK/Kadaster**
-
 Geometrische onzekerheid 
 -------------------------
 
